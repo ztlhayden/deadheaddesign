@@ -1,5 +1,8 @@
 module.exports = {
   theme: {
+    fontFamily: {
+      'openSans': ['Open\\ Sans', 'sans-serif']
+    },
     extend: {
       colors: {
         primary: {

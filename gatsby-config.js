@@ -5,6 +5,14 @@ module.exports = {
       options: {
         tailwindConfig: `tailwind.config.js`
       }
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Open Sans', 'sans-serif']
+        }
+      }
     }
   ]
 };

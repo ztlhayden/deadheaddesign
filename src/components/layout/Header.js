@@ -17,9 +17,6 @@ const Header = () => (
         <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/contact/">
           Contact
         </Link>
-        <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/features/">
-          Features
-        </Link>
         <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/services/">
           Services
         </Link>

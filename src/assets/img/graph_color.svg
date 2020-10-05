@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="419.94" viewBox="0 0 768 419.94">
+  <title>graph_color</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <line x1="556.4" y1="15" x2="384.4" y2="103" style="fill: none;stroke: #3ccb4f;stroke-miterlimit: 10;stroke-width: 4px"/>
+      <rect x="172.27" y="214.94" width="78.92" height="205" style="fill: #ff2823"/>
+      <rect x="344.54" y="146.94" width="78.92" height="273" style="fill: #ff6f2b"/>
+      <rect x="516.81" y="59.94" width="78.92" height="360" style="fill: #3ccb4f"/>
+      <rect y="124.94" width="78.92" height="295" style="fill: #ff6f2b"/>
+      <rect x="689.08" y="83.94" width="78.92" height="336" style="fill: #ff6f2b"/>
+      <line x1="36.4" y1="80" x2="211.4" y2="170" style="fill: none;stroke: #ff2823;stroke-miterlimit: 10;stroke-width: 4px"/>
+      <line x1="211.4" y1="170" x2="384.4" y2="103" style="fill: none;stroke: #3ccb4f;stroke-miterlimit: 10;stroke-width: 4px"/>
+      <circle cx="36.4" cy="80" r="15" style="fill: #010102"/>
+      <circle cx="211.4" cy="170" r="15" style="fill: #010102"/>
+      <line x1="556.4" y1="15" x2="728.4" y2="39" style="fill: none;stroke: #ff2823;stroke-miterlimit: 10;stroke-width: 4px"/>
+      <circle cx="384.4" cy="103" r="15" style="fill: #010102"/>
+      <circle cx="556.4" cy="15" r="15" style="fill: #010102"/>
+      <circle cx="728.4" cy="39" r="15" style="fill: #010102"/>
+    </g>
+  </g>
+</svg>

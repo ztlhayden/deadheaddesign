@@ -8,7 +8,6 @@ import SplitSection from '../components/SplitSection';
 //import StatsBox from '../components/StatsBox';
 //import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
-import SvgCharts from '../svg/SvgCharts';
 
 import WebSearchPage from '../assets/img/web_search_page.svg';
 import graph from '../assets/img/graph_color.svg';

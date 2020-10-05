@@ -12,6 +12,7 @@ import SvgCharts from '../svg/SvgCharts';
 
 import WebSearchPage from '../assets/img/web_search_page.svg';
 import graph from '../assets/img/graph_color.svg';
+import SiteBeforeAfter from '../assets/img/site_beforeafter.svg';
 
 export default () => (
   <Layout>
@@ -77,7 +78,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src={SiteBeforeAfter} alt="" className="object-contain" />}
     />
     <SplitSection
       reverseOrder

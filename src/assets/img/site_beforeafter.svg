@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="426.08" viewBox="0 0 640 426.08">
+  <title>site_beforeafter</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path d="M211.55,410.2,392.38,17H637a2.5,2.5,0,0,1,2.5,2.5V407.7a2.5,2.5,0,0,1-2.5,2.5Z" style="fill: #f2f2f2"/>
+        <path d="M637,17.53a2,2,0,0,1,2,2V407.7a2,2,0,0,1-2,2H212.33L392.7,17.53H637m0-1H392.06L210.77,410.7H637a3,3,0,0,0,3-3V19.53a3,3,0,0,0-3-3Z" style="fill: #010102"/>
+      </g>
+      <g>
+        <path d="M242.69,69.39a19,19,0,1,1,19-19A19.07,19.07,0,0,1,242.69,69.39Z" style="fill: #fff"/>
+        <path d="M242.69,32.8a17.54,17.54,0,1,1-17.54,17.54A17.56,17.56,0,0,1,242.69,32.8m0-3a20.54,20.54,0,1,0,20.54,20.54A20.54,20.54,0,0,0,242.69,29.8Z" style="fill: #010102"/>
+      </g>
+      <rect x="349.5" y="37.54" width="256" height="359" style="fill: #fff"/>
+      <rect x="513.5" y="42.54" width="64" height="348" style="fill: #ff6f2b"/>
+      <rect x="359.5" y="42.54" width="241" height="58" style="fill: #1f245a"/>
+      <g>
+        <path d="M3,410.2a2.5,2.5,0,0,1-2.5-2.5V19.53A2.5,2.5,0,0,1,3,17H391.28L210.45,410.2Z" style="fill: #f2f2f2"/>
+        <path d="M390.5,17.53,210.13,409.7H3a2,2,0,0,1-2-2V19.53a2,2,0,0,1,2-2H390.5m1.56-1H3a3,3,0,0,0-3,3V407.7a3,3,0,0,0,3,3H210.77L392.06,16.53Z" style="fill: #010102"/>
+      </g>
+      <g>
+        <polygon points="160.98 363.93 160.98 46.59 241.55 46.59 241.55 340.2 230.63 363.93 160.98 363.93" style="fill: #ff6f2b"/>
+        <path d="M240,48.09V339.87l-10.38,22.56H162.48V48.09H240m3-3H159.48V365.43h72.11L243,340.53V45.09Z" style="fill: #010102"/>
+      </g>
+      <path d="M172,75.38" style="fill: none;stroke: #010102;stroke-miterlimit: 10;stroke-width: 3px"/>
+      <g>
+        <rect x="13.02" y="55.59" width="147.42" height="70.12" style="fill: #1f245a"/>
+        <path d="M158.94,57.09v67.12H14.52V57.09H158.94m3-3H11.52v73.12H161.94V54.09Z" style="fill: #010102"/>
+      </g>
+      <g>
+        <polygon points="92.99 181.88 116.1 59.53 357.48 59.53 347.5 112.39 315.54 181.88 92.99 181.88" style="fill: #fff"/>
+        <path d="M355.67,61l-9.62,50.9-31.48,68.45H94.8L117.34,61H355.67m3.62-3H114.85L91.18,183.38H316.5l32.44-70.53L359.29,58Z" style="fill: #010102"/>
+      </g>
+      <g>
+        <rect x="13.12" y="227.48" width="133.5" height="109.82" style="fill: #fff"/>
+        <path d="M145.12,229V335.79H14.62V229h130.5m3-3H11.62V338.79h136.5V226Z" style="fill: #010102"/>
+      </g>
+      <g>
+        <polygon points="72.84 372.99 72.84 284.06 268.37 284.06 227.47 372.99 72.84 372.99" style="fill: #ccc"/>
+        <path d="M266,285.56l-39.52,85.93H74.34V285.56H266m4.68-3H71.34v91.93H228.43l42.28-91.93Z" style="fill: #010102"/>
+      </g>
+      <g>
+        <path d="M53.33,198.9a29.84,29.84,0,1,1,30.19-29.84A30,30,0,0,1,53.33,198.9Z" style="fill: #fff"/>
+        <path d="M53.33,140.73a28.34,28.34,0,1,1-28.69,28.34,28.55,28.55,0,0,1,28.69-28.34m0-3A31.34,31.34,0,1,0,85,169.06a31.51,31.51,0,0,0-31.69-31.34Z" style="fill: #010102"/>
+      </g>
+      <g>
+        <rect x="55.12" y="145.48" width="133.5" height="109.82" style="fill: #ccc"/>
+        <path d="M187.12,147V253.79H56.62V147h130.5m3-3H53.62V256.79h136.5V144Z" style="fill: #010102"/>
+      </g>
+      <line x1="90.03" y1="211.13" x2="152.71" y2="211.13" style="fill: none;stroke: #010102;stroke-miterlimit: 10;stroke-width: 3px"/>
+      <line x1="86.68" y1="226.88" x2="157.01" y2="226.88" style="fill: none;stroke: #010102;stroke-miterlimit: 10;stroke-width: 3px"/>
+      <line x1="163.06" y1="187.28" x2="81.58" y2="187.28" style="fill: none;stroke: #010102;stroke-miterlimit: 10;stroke-width: 4px"/>
+      <path d="M109.34,75.38" style="fill: none;stroke: #010102;stroke-miterlimit: 10;stroke-width: 3px"/>
+      <line x1="398" y1="1.04" x2="204" y2="425.04" style="fill: none;stroke: #010102;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <rect x="383.5" y="109.54" width="166" height="93" style="fill: #ccc"/>
+      <rect x="383.5" y="240.54" width="83" height="43" style="fill: #3ccb4f"/>
+      <g>
+        <rect x="476.5" y="240.54" width="73" height="93" style="fill: #ccc"/>
+        <rect x="383.5" y="291.54" width="93" height="42" style="fill: #ccc"/>
+      </g>
+      <rect x="397.5" y="212.54" width="36" height="18" style="fill: #ff2823"/>
+      <rect x="448.5" y="212.54" width="36" height="18" style="fill: #ff2823"/>
+      <ellipse cx="408.76" cy="134.75" rx="21.26" ry="21.02" style="fill: #fff"/>
+    </g>
+  </g>
+</svg>

@@ -14,20 +14,21 @@ const Header = () => (
         <Link to="/" className="text-white hover:text-contrast_dark_lighter">Deadhead.Design</Link>
       </div>
       <div className="flex mt-4 sm:mt-0">
+        <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/contact/">
+          Contact
+        </Link>
         <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/features/">
           Features
         </Link>
         <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/services/">
           Services
         </Link>
-        <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/about/">
-          About
-        </Link>
         <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/portfolio/">
           Portfolio
         </Link>
-      </div>
-      <div className="hidden md:block">
+        <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/about/">
+          About
+        </Link>
       </div>
     </div>
   </header>

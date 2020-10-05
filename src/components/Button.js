@@ -1,4 +1,5 @@
 import React from 'react';
+import {navigate} from 'gatsby'
 
 const sizes = {
   default: `py-3 px-8`,
@@ -17,8 +18,8 @@ const Button = ({ children, className = '', size }) => {
         hover:bg-contrast_light_darker
         rounded
         text-white
-    `}
-    >
+      `}
+      onClick={() => {navigate('/about')}}>
       {children}
     </button>
   );

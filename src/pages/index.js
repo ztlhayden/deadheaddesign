@@ -9,6 +9,7 @@ import SplitSection from '../components/SplitSection';
 //import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import { ReactComponent as WebSearchPage } from '../assets/img/web_search_page.svg';
 
 export default () => (
   <Layout>
@@ -88,7 +89,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<WebSearchPage />}
     />
     <SplitSection
       primarySlot={

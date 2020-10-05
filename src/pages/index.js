@@ -9,8 +9,9 @@ import SplitSection from '../components/SplitSection';
 //import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
-import { ReactComponent as WebSearchPage } from '../assets/img/web_search_page.svg';
-import { ReactComponent as GraphColor } from '../assets/img/graph_color.svg';
+
+import WebSearchPage from '../assets/img/web_search_page.svg';
+import graph from '../assets/img/graph_color.svg';
 
 export default () => (
   <Layout>
@@ -90,7 +91,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<WebSearchPage />}
+      secondarySlot={<img src={WebSearchPage} alt="" className="object-contain" />}
     />
     <SplitSection
       primarySlot={
@@ -103,7 +104,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<GraphColor />}
+      secondarySlot={<img src={graph} alt="" className="object-contain" />}
     />
     {/* <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">

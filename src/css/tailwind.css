@@ -1,5 +1,9 @@
 @tailwind base;
 
+html {
+  @apply bg-white;
+}
+
 a {
   @apply text-primary;
 }

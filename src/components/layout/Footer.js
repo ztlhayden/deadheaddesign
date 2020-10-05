@@ -14,7 +14,7 @@ const Footer = () => (
             <a href="mailto:haydenyounglex@hotmail.com">Email</a>
           </li>
           <li>
-            <a href="tel:+18596840445">+1 (859) 684-0445</a>
+            <a href="tel:+18596840445">(859) 684-0445</a>
           </li>
           <li>
             <a href="https://haydenyoung.me">haydenyoung.me</a>

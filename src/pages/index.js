@@ -70,7 +70,7 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Design Help</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Be involved in your design, without doing the heavy lifting. Explain your needs and I will keep you in the loop every step of the way so you can see your vision in your browser.
+            Be involved in your design, without doing the heavy lifting. Explain your needs and remain in the loop every step of the way so you can see your vision in your browser.
           </p>
         </div>
       }
@@ -131,7 +131,7 @@ export default () => (
         </div>
       </div>
     </section> */}
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+    <section className="container mx-auto my-20 py-24 bg-contrast_dark text-white bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
       <p className="mt-8 text-xl font-light">
         Schedule a time for a free design consultation and quote.

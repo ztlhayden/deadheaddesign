@@ -2,11 +2,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          lighter: '#333333',
-          default: '#0d0d0d',
-          darker: '#000000'
-        }
+        white: 'RGB(245, 245, 255)',
+        green: 'RGB(60, 203, 79)',
+        red: 'RGB(255, 40, 35)',
+        contrast_light: 'RGB(255, 111, 43)',
+        contrast_light_darker: 'RGB(235, 91, 23)',
+        contrast_dark: 'RGB(31, 36, 90)',
+        contrast_dark_lighter: 'RGB(201, 206, 255)',
+        primary: 'RGB(1, 1, 2)',
+        black: 'RGB(1, 2, 3)'
       }
     }
   },

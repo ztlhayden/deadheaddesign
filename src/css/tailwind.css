@@ -4,7 +4,7 @@ a {
   @apply text-primary;
 }
 a:hover {
-  @apply text-primary-darker;
+  @apply text-black;
 }
 
 @tailwind components;

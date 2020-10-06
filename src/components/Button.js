@@ -1,5 +1,5 @@
 import React from 'react';
-import {navigate} from 'gatsby'
+import { navigate } from 'gatsby';
 
 const sizes = {
   default: `py-3 px-8`,
@@ -20,7 +20,10 @@ const Button = ({ children, className = '', size }) => {
         text-primary
         font-semibold
       `}
-      onClick={() => {navigate('/about')}}>
+      onClick={() => {
+        navigate('/about');
+      }}
+    >
       {children}
     </button>
   );

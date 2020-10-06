@@ -21,7 +21,7 @@ const Button = ({ children, className = '', size }) => {
         font-semibold
       `}
       onClick={() => {
-        navigate('/about');
+        navigate('/contact');
       }}
     >
       {children}

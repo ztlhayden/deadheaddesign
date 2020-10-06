@@ -17,7 +17,8 @@ const Button = ({ children, className = '', size }) => {
         bg-contrast_light
         hover:bg-contrast_light_darker
         rounded
-        text-white
+        text-primary
+        font-semibold
       `}
       onClick={() => {navigate('/about')}}>
       {children}

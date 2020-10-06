@@ -11,7 +11,7 @@ export default () => (
     <div className="container m-auto">
       <h1 className="text-3xl text-center m-5 font-semibold">Drop us a line!</h1>
       <div className="min-w-100 m-auto flex flex-wrap justify-between">
-        <section className="max-w-sm w-full text-center ml-auto mr-auto">
+        <section className="max-w-sm w-full text-center ml-auto mr-auto mt-5">
           <h2 className="font-semibold text-lg m-5">Free Quotes</h2>
           <p>
             Your quote will include a personal consultation and a design mock-up, all free of charge
@@ -20,11 +20,11 @@ export default () => (
           </p>
         </section>
 
-        <div className="max-w-sm w-full p-3 ml-auto mr-auto bg-contrast_dark text-white">
+        <div className="max-w-sm w-full p-3 ml-auto mr-auto mt-5 bg-contrast_dark text-white shadow-md">
           <ContactForm />
         </div>
 
-        <section className="max-w-sm w-full text-center ml-auto mr-auto">
+        <section className="max-w-sm w-full text-center ml-auto mr-auto mt-5">
           <h2 className="font-semibold text-lg m-5">Reach Out</h2>
           <div className="">
             <a className="block mb-3 m-auto" href="mailto:hayden@haydenyoung.me">

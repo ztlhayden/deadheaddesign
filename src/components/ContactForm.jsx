@@ -3,10 +3,24 @@ import { useForm } from 'react-hook-form';
 
 const ContactForm = () => {
   const { register, handleSubmit, errors } = useForm();
-  const onSubmit = data => console.log(data);
+
+  const requestOptions = {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    mode: 'no-cors'
+  };
+
+  const onSubmit = data => {
+    console.log(data);
+  };
 
   return (
-    <form className="w-full" onSubmit={handleSubmit(onSubmit)}>
+    <form
+      className="w-full"
+      method="post"
+      action="http://localhost:3000/contact_api"
+      onSubmit={handleSubmit(onSubmit)}
+    >
       <h2 className="text-center font-semibold text-lg">Request an Email</h2>
       <div>
         <label htmlFor="name" className="block mb-1">
@@ -17,7 +31,7 @@ const ContactForm = () => {
           name="name"
           id="name"
           className="w-full rounded text-contrast_dark"
-          placeHolder="Your Name"
+          placeholder="Your Name"
           ref={register({ required: true })}
         />
         {errors.name && <p className="text-red font-thin italic">Please include your name.</p>}
@@ -31,22 +45,22 @@ const ContactForm = () => {
           name="email"
           id="email"
           className="w-full rounded text-contrast_dark"
-          placeHolder="Your Email"
+          placeholder="Your Email"
           ref={register({ required: true })}
         />
         {errors.email && <p className="text-red font-thin italic">Please check your email.</p>}
       </div>
       <div>
-        <label htmlFor="body" className="block mt-4 mb-1">
+        <label htmlFor="msg" className="block mt-4 mb-1">
           What's your project?
         </label>
         <textarea
-          name="body"
-          id="body"
+          name="msg"
+          id="msg"
           cols="24"
           rows="5"
           className="w-full rounded text-contrast_dark"
-          placeHolder="Your Amazing Idea"
+          placeholder="Your Amazing Idea"
           ref={register}
         />
       </div>

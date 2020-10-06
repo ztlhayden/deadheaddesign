@@ -18,7 +18,7 @@ const ContactForm = () => {
     <form
       className="w-full"
       method="post"
-      action="http://localhost:3000/contact_api"
+      action="https://deadhead.design:8080/contact_api"
       onSubmit={handleSubmit(onSubmit)}
     >
       <h2 className="text-center font-semibold text-lg">Request an Email</h2>

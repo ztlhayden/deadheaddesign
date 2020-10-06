@@ -20,7 +20,7 @@ export default () => (
           </p>
         </section>
 
-        <div className="max-w-sm w-full p-3 ml-auto mr-auto mt-5 bg-contrast_dark text-white shadow-md">
+        <div className="max-w-sm w-full p-3 ml-auto mr-auto mt-5 bg-contrast_dark text-white shadow-md rounded">
           <ContactForm />
         </div>
 

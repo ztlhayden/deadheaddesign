@@ -28,7 +28,7 @@ export default () => (
             to life with custom, practical, and performant web design.
           </p>
           <p className="text-xl lg:text-2xl mt-4 font-light">
-            Localy owned in Lexington, Kentucky.
+            Locally owned in Lexington, Kentucky.
           </p>
           <p className="mt-6 md:mt-10">
             <Button size="lg">Request Quote</Button>

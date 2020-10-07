@@ -2,17 +2,18 @@ import React from 'react';
 
 import Button from '../components/Button';
 import Card from '../components/Card';
-//import CustomerCard from '../components/CustomerCard';
-//import LabelText from '../components/LabelText';
+// import CustomerCard from '../components/CustomerCard';
+// import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
-//import StatsBox from '../components/StatsBox';
-//import customerData from '../data/customer-data';
+// import StatsBox from '../components/StatsBox';
+// import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 
 import WebSearchPage from '../assets/img/web_search_page.svg';
 import graph from '../assets/img/graph_color.svg';
 import SiteBeforeAfter from '../assets/img/site_beforeafter.svg';
+import PagePen from '../assets/img/page_pen_content.svg';
 
 export default () => (
   <Layout>
@@ -23,90 +24,114 @@ export default () => (
             Imagine your new website
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            You need a strong web presence and we are here to help your dreams come to life. Hand developed,
-            developed, personalized websites meet your needs and deliver consistancy with your brand
-            image.
+            Now more than ever, you need a strong web presence. I am here to help your dreams come
+            to life with custom, practical, and performant web design.
           </p>
-          <p className="mt-8 md:mt-12">
+          <p className="text-xl lg:text-2xl mt-4 font-light">
+            Localy owned in Lexington, Kentucky.
+          </p>
+          <p className="mt-6 md:mt-10">
             <Button size="lg">Request Quote</Button>
           </p>
-          <p className="mt-4 text-gray-600">Free personal consultations</p>
+          <p className="mt-4 text-gray-600">Free consultations</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
         </div>
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+
+    <section id="services" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">The web, personalized</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">The perfect site for your:</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Businesses</p>
+              <p className="font-semibold text-xl">Business</p>
               <p className="mt-4">
-                Give your clients the information they need and new ways to engage with interactive web applications.
+                Give your clients the information they need and new ways to engage with interactive
+                web applications.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Individuals</p>
+              <p className="font-semibold text-xl">Self</p>
               <p className="mt-4">
-                Loudly tell the world who you are both personally and professionally with a landing page that is 100% you.
+                Loudly tell the world who you are both personally and professionally with a landing
+                page that is 100% you.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Groups</p>
+              <p className="font-semibold text-xl">Group</p>
               <p className="mt-4">
-                Stand out in recruiting while giving your members and organizers the tools they need to meet most effectively.
+                Stand out in recruiting while giving your members and organizers the tools they need
+                to meet most effectively.
               </p>
             </Card>
           </div>
         </div>
       </div>
     </section>
+
     <SplitSection
-      id="services"
+      reverseOrder
       primarySlot={
-        <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Design Help</h3>
+        <div className="lg:pl-32 xl:pl-48">
+          <h3 className="text-3xl font-semibold leading-tight">Custom Design</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Be involved in your design, without doing the heavy lifting. Explain your needs and remain in the loop every step of the way so you can see your vision in your browser.
+            Be involved in your design, without doing the heavy lifting. Explain your needs and
+            remain in the loop every step of the way so you can see your vision in your browser.
+            Great content is important and hard to write. Let me learn about your business or group
+            and write engaging content that is also search engine optimized.
           </p>
         </div>
       }
       secondarySlot={<img src={SiteBeforeAfter} alt="" className="object-contain" />}
     />
+
+    <SplitSection
+      primarySlot={
+        <div className="lg:pr-32 xl:pr-48">
+          <h3 className="text-3xl font-semibold leading-tight">Content Creation</h3>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            Great content is important and hard to write. Let me learn about your business or group
+            and write engaging content that is also search engine optimized.
+          </p>
+        </div>
+      }
+      secondarySlot={<img src={PagePen} alt="" className="object-contain" />}
+    />
+
     <SplitSection
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Search Engine Optimization
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Search Engine Optimization</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Your website looks amazing, but people need to see it. Advanced SEO features baked in will pull it to the top of searches.
+            Your website looks amazing, but people need to see it. Advanced SEO features baked in
+            will pull it to the top of searches.
           </p>
         </div>
       }
       secondarySlot={<img src={WebSearchPage} alt="" className="object-contain" />}
     />
+
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Marketing Analytics
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Marketing Analytics</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            The users visiting your site are your customers. Glean valuable marketing information from site analytics to see how business is effected.
+            The users visiting your site are your customers. Glean valuable marketing information
+            from site analytics to see how business is effected.
           </p>
         </div>
       }
       secondarySlot={<img src={graph} alt="" className="object-contain" />}
     />
+
     {/* <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
@@ -122,8 +147,9 @@ export default () => (
           </div>
         </div>
       </div>
-    </section>/*}{/*
-    <section id="testimonials" className="py-20 lg:py-40">
+    </section>/*}
+    
+ {/*<section id="testimonials" className="py-20 lg:py-40">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
@@ -135,6 +161,7 @@ export default () => (
         </div>
       </div>
     </section> */}
+
     <section className="container mx-auto my-20 py-24 bg-contrast_dark text-white bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Ready to Grow?</h3>
       <p className="mt-8 text-xl font-light">

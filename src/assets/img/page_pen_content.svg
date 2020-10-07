@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="907.05" height="711" viewBox="0 0 907.05 711">
+  <title>page_pen_content</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect width="907.05" height="711" style="fill: #fff"/>
+        <rect x="581.08" y="17.72" width="226.76" height="693.28" style="fill: #ff6f2b"/>
+        <rect x="35.43" y="17.72" width="853.91" height="205.5" style="fill: #1f245a"/>
+        <rect x="120.47" y="255.11" width="588.17" height="329.52" style="fill: #ccc"/>
+        <rect x="170.07" y="620.06" width="127.55" height="63.78" style="fill: #ff2823"/>
+        <rect x="350.77" y="620.06" width="127.55" height="63.78" style="fill: #ff2823"/>
+        <ellipse cx="209.95" cy="344.43" rx="75.31" ry="74.49" style="fill: #fff"/>
+        <rect x="345.63" y="269.59" width="294.61" height="31.5" style="fill: #4d4d4d"/>
+        <rect x="300.24" y="314.06" width="373.35" height="13.9" style="fill: #4d4d4d"/>
+        <rect x="300.24" y="339.08" width="373.35" height="13.9" style="fill: #4d4d4d"/>
+        <rect x="300.24" y="364.09" width="178.8" height="13.9" style="fill: #4d4d4d"/>
+        <g>
+          <rect x="150.66" y="662.96" width="13.67" height="19.29" transform="translate(540.08 97.43) rotate(46.81)" style="fill: #999"/>
+          <path d="M478.08,371.91l-5.41,2.69a.38.38,0,0,0-.11.6l2.39,2.54a.38.38,0,0,0,.61-.07l3-5.23A.38.38,0,0,0,478.08,371.91Z" style="fill: #b3b3b3"/>
+          <rect x="288.13" y="342.86" width="30.55" height="386.64" transform="translate(486.67 -52) rotate(46.81)" style="fill: #1a1a1a"/>
+          <polygon points="472.25 373.69 433.9 392.73 454.81 415 476.23 377.93 472.25 373.69" style="fill: #1a1a1a"/>
+          <line x1="433.9" y1="392.73" x2="454.8" y2="415" style="fill: none"/>
+          <rect x="197.33" y="577.4" width="15.27" height="101.28" transform="translate(522.57 48.76) rotate(46.81)" style="fill: #999"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+
 import LogoIcon from '../../assets/icon/dd_icon.svg';
 
 const Header = () => (
@@ -8,23 +9,22 @@ const Header = () => (
       <div className="flex items-center text-2xl">
         <div className="w-12 mr-4">
           <Link to="/">
-          <img src={LogoIcon} atl='' />
+            <img src={LogoIcon} atl="" />
           </Link>
         </div>
-        <Link to="/" className="text-white hover:text-contrast_dark_lighter">Deadhead.Design</Link>
+        <Link to="/" className="text-white hover:text-contrast_dark_lighter">
+          Deadhead.Design
+        </Link>
       </div>
       <div className="flex mt-4 sm:mt-0">
         <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/contact/">
           Contact
         </Link>
-        <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/services/">
+        <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/#services">
           Services
         </Link>
         <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/portfolio/">
           Portfolio
-        </Link>
-        <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/about/">
-          About
         </Link>
       </div>
     </div>

@@ -9,7 +9,7 @@ const Header = () => (
       <div className="flex items-center text-2xl">
         <div className="w-12 mr-4">
           <Link to="/">
-            <img src={LogoIcon} atl="" />
+            <img src={LogoIcon} alt="Logo" />
           </Link>
         </div>
         <Link to="/" className="text-white hover:text-contrast_dark_lighter">

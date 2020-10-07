@@ -7,7 +7,6 @@ const HookContactForm = () => {
   const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
   const targetUrl = 'https://formspree.io/f/xyybkpol';
   const submitForm = data => {
-    console.log(JSON.stringify({ data }));
     fetch(proxyUrl + targetUrl, {
       method: 'POST',
       body: JSON.stringify(data),
@@ -17,7 +16,7 @@ const HookContactForm = () => {
     })
       .then(() => setIsSent(true))
 
-      .catch(() => alert('There was an error, please try again'));
+      .catch(() => alert('There was an error, please try again')); // eslint-disable-line no-alert
   };
 
   const form = (

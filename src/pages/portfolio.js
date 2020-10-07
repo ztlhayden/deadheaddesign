@@ -6,7 +6,7 @@ import PortfolioItems from '../components/PortfolioItems';
 export default () => (
   <Layout>
     <div className="container m-auto">
-      <h1 className="m-10 text-center text-3xl font-semibold">Porfolio</h1>
+      <h1 className="m-10 text-center text-3xl font-semibold">Portfolio</h1>
       <PortfolioItems />
     </div>
   </Layout>

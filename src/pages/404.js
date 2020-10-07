@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import Layout from '../components/layout/Layout'
+import Layout from '../components/layout/Layout';
 
 export default () => (
   <Layout>
@@ -8,4 +8,4 @@ export default () => (
       <h1>Page not Found</h1>
     </div>
   </Layout>
-)
+);

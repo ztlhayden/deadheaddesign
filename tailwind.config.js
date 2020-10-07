@@ -3,6 +3,7 @@ module.exports = {
     extend: {
       colors: {
         white: 'RGB(245, 245, 255)',
+        bright_white: 'RGB(255, 255, 255)',
         green: 'RGB(60, 203, 79)',
         red: 'RGB(255, 40, 35)',
         contrast_light: 'RGB(255, 111, 43)',

@@ -1,12 +1,11 @@
-const path = require(`path`)
+const path = require(`path`);
 
 module.exports = {
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/assets/img`
+        path: `./src/assets`
       }
     },
     'gatsby-plugin-svgr',

@@ -6,6 +6,18 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Deadhead.Design`,
+        short_name: `Deadhead.Design`,
+        start_url: `/`,
+        background_color: `#F5F5FF`,
+        theme_color: `#1F245A`,
+        display: `standalone`,
+        icon: `src/assets/icon/dd_icon_b_sq.svg`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `./src/assets`

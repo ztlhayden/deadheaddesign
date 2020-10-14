@@ -1,5 +1,6 @@
 import React from 'react';
 
+import SEO from '../components/SEO';
 import Button from '../components/Button';
 import Card from '../components/Card';
 // import CustomerCard from '../components/CustomerCard';
@@ -17,6 +18,7 @@ import PagePen from '../assets/img/page_pen_content.svg';
 
 export default () => (
   <Layout>
+    <SEO title="Home"/>
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">

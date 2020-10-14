@@ -1,11 +1,13 @@
 import React from 'react';
 
 import Layout from '../components/layout/Layout';
+import SEO from '../components/SEO';
 
 import bio from '../assets/img/IMG_9623.jpg';
 
 export default () => (
   <Layout>
+    <SEO title="About"/>
     <div className="container m-auto">
       <h1 className="m-10 text-center text-3xl font-semibold">About Me</h1>
       <div className="flex flex-wrap justify-center">

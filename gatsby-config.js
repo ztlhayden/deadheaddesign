@@ -1,6 +1,9 @@
-const path = require(`path`);
-
 module.exports = {
+  siteMetadata: {
+    title: `Deadhead.Design`,
+    description: `We offer website design in Lexington, Kentucky. Fast, affordable, and totally custom website creation and maintenance for your small business. Request a free quote today!`,
+    author: `Hayden Young`,
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

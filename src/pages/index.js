@@ -21,11 +21,10 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Imagine your new website
+            Soar to new hights
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Now more than ever, you need a strong web presence. I am here to help your dreams come
-            to life with custom, practical, and performant web design.
+            Fast, affordable, and totally custom website creation and maintenance for your small business.
           </p>
           <p className="text-xl lg:text-2xl mt-4 font-light">
             Locally owned in Lexington, Kentucky.
@@ -43,7 +42,7 @@ export default () => (
 
     <section id="services" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">The perfect site for your:</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">The perfect <span className="bg-black text-white rounded pb-4 pr-3 pl-3 border border-solid border-gray-200">&lt;page/&gt;</span> for your:</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
@@ -80,12 +79,10 @@ export default () => (
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">Custom Design</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Custom Website Design</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             Be involved in your design, without doing the heavy lifting. Explain your needs and
             remain in the loop every step of the way so you can see your vision in your browser.
-            Great content is important and hard to write. Let me learn about your business or group
-            and write engaging content that is also search engine optimized.
           </p>
         </div>
       }
@@ -95,9 +92,9 @@ export default () => (
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Content Creation</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Focused Content</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Great content is important and hard to write. Let me learn about your business or group
+            Great website content is important and hard to write. Let me learn about your business or group
             and write engaging content that is also search engine optimized.
           </p>
         </div>

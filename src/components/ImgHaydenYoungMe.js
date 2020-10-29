@@ -7,8 +7,8 @@ const ImgHaydenYoungMe = () => {
     query {
       file(relativePath: { eq: "img/haydenyoungme.png" }) {
         childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
+          fixed(width: 315) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
@@ -18,7 +18,7 @@ const ImgHaydenYoungMe = () => {
   return (
     <Img
       className='center w-11/12 m-auto z-50'
-      fluid={data.file.childImageSharp.fluid}
+      fixed={data.file.childImageSharp.fixed}
       alt="Hayden's Resume Site"
     />
   )

@@ -1,17 +1,16 @@
-import React from 'react';
-import hayden from '../assets/img/haydenyoungme.png';
+import React from 'react'
 
-const PortfolioItems = () => {
+const PortfolioItems = props => {
   return (
-    <div className="flex flex-wrap justify-center">
-      <div className="bg-bright_white max-w-xs w-full text-center rounded shadow-md">
-        <a href="https://haydenyoung.me">
-          <h3 className="font-semibold text-lg mt-1 mb-5">Hayden&apos;s Resume Site</h3>
-          <img className="center w-11/12 m-auto z-50" src={hayden} alt="Hayden's Resume Site" />
+    <div className='flex flex-wrap justify-center'>
+      <div className='bg-bright_white max-w-xs w-full text-center rounded shadow-md'>
+        <a href={props.url}>
+          <h3 className='font-semibold text-lg mt-1 mb-5'>{props.name}</h3>
+          {props.children}
         </a>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default PortfolioItems;
+export default PortfolioItems

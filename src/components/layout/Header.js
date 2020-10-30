@@ -1,34 +1,34 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from 'react'
+import { Link } from 'gatsby'
 
-import LogoIcon from '../../assets/icon/dd_icon.svg';
+import LogoIcon from '../../assets/icon/dd_icon.svg'
 
 const Header = () => (
-  <header className="sticky top-0 bg-contrast_dark text-white shadow">
-    <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
-      <div className="flex items-center text-2xl">
-        <div className="w-12 mr-4">
-          <Link to="/">
-            <img src={LogoIcon} alt="Logo" />
+  <header className='sticky top-0 bg-contrast_dark text-white shadow z-50'>
+    <div className='container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8'>
+      <div className='flex items-center text-2xl'>
+        <div className='w-12 mr-4'>
+          <Link to='/'>
+            <img src={LogoIcon} alt='Logo' />
           </Link>
         </div>
-        <Link to="/" className="text-white hover:text-contrast_dark_lighter">
+        <Link to='/' className='text-white hover:text-contrast_dark_lighter'>
           Deadhead.Design
         </Link>
       </div>
-      <div className="flex mt-4 sm:mt-0">
-        <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/contact/">
+      <div className='flex mt-4 sm:mt-0'>
+        <Link className='px-4 text-contrast_dark_lighter hover:text-white' to='/contact/'>
           Contact
         </Link>
-        <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/#services">
+        <Link className='px-4 text-contrast_dark_lighter hover:text-white' to='/#services'>
           Services
         </Link>
-        <Link className="px-4 text-contrast_dark_lighter hover:text-white" to="/portfolio/">
+        <Link className='px-4 text-contrast_dark_lighter hover:text-white' to='/portfolio/'>
           Portfolio
         </Link>
       </div>
     </div>
   </header>
-);
+)
 
-export default Header;
+export default Header

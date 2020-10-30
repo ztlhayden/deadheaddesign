@@ -3,7 +3,10 @@ import React from 'react'
 import Layout from '../components/layout/Layout'
 import SEO from '../components/SEO'
 import PortfolioItems from '../components/PortfolioItems'
-import ImgHaydenYoungMe from '../components/ImgHaydenYoungMe'
+import ImgHaydenYoungMe from '../components/portfolio_photos/ImgHaydenYoungMe'
+import ImgRiverOfLife from '../components/portfolio_photos/ImgRiverOfLife'
+import ImgBonAppeAirplane from '../components/portfolio_photos/ImgBonAppeAirline'
+import ImgCodePen from '../components/portfolio_photos/ImgCodePen'
 
 export default () => (
   <Layout>
@@ -15,16 +18,13 @@ export default () => (
           <ImgHaydenYoungMe />
         </PortfolioItems>
         <PortfolioItems name='River of Life Church' url='https://myriveroflifechurch.com'>
-          <ImgHaydenYoungMe />
+          <ImgRiverOfLife />
         </PortfolioItems>
         <PortfolioItems name='Bon Appe Airplane' url='https://bonappeairplane.com/'>
-          <ImgHaydenYoungMe />
+          <ImgBonAppeAirplane />
         </PortfolioItems>
-        <PortfolioItems name='GitHub' url='https://github.com/ztlhayden'>
-          <ImgHaydenYoungMe />
-        </PortfolioItems>
-        <PortfolioItems name='CodePen' url='https://codepen.io/ztlhayden'>
-          <ImgHaydenYoungMe />
+        <PortfolioItems name='CodePen Examples' url='https://codepen.io/ztlhayden'>
+          <ImgCodePen />
         </PortfolioItems>
       </div>
     </div>

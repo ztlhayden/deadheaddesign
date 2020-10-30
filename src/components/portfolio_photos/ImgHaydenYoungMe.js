@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 const ImgHaydenYoungMe = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "img/haydenyoungme.png" }) {
+      file(relativePath: { eq: "img/haydenyoung.me_.png" }) {
         childImageSharp {
           fixed(width: 300, height: 300) {
             ...GatsbyImageSharpFixed

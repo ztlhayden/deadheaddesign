@@ -17,7 +17,7 @@ const ImgHaydenYoungMe = () => {
 
   return (
     <Img
-      className='center w-11/12 m-auto z-50'
+      className='center w-11/12 m-auto'
       fixed={data.file.childImageSharp.fixed}
       alt="Hayden's Resume Site"
     />

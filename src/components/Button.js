@@ -9,8 +9,9 @@ const sizes = {
 
 const Button = ({ children, className = '', size }) => {
   return (
-    <button
-      type='button'
+    <a
+      href='https://share.hsforms.com/1Z42l_4JPRRO5i-0se3WYOw57bzd'
+      target='_blank'
       className={`
         ${sizes[size] || sizes.default}
         ${className}
@@ -20,12 +21,9 @@ const Button = ({ children, className = '', size }) => {
         text-primary
         font-semibold
       `}
-      onClick={() => {
-        navigate('/contact')
-      }}
     >
       {children}
-    </button>
+    </a>
   )
 }
 

@@ -18,7 +18,7 @@ const Button = ({ children, className = '', size }) => {
         bg-contrast_light
         hover:bg-contrast_light_darker
         rounded
-        text-primary
+        text-bright_white
         font-semibold
       `}
     >

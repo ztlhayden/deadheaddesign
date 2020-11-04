@@ -2,15 +2,21 @@ module.exports = {
   siteMetadata: {
     title: `Deadhead.Design`,
     description: `We offer website design in Lexington, Kentucky. Fast, affordable, and totally custom website creation and maintenance for your small business. Request a free quote today!`,
-    author: `Hayden Young`,
+    author: `Hayden Young`
   },
   plugins: [
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
         // replace `UA-XXXXXXXXX-X` with your own Google Analytics Tracking ID
-        trackingId: `UA-178800194-2`,
-      },
+        trackingId: `UA-178800194-2`
+      }
+    },
+    {
+      resolve: 'gatsby-source-hubspot-forms',
+      options: {
+        apiKey: process.env.HUBSPOT_API_KEY
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -21,8 +27,8 @@ module.exports = {
         background_color: `#F5F5FF`,
         theme_color: `#1F245A`,
         display: `standalone`,
-        icon: `src/assets/icon/dd_icon_b_sq.svg`,
-      },
+        icon: `src/assets/icon/dd_icon_b_sq.svg`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -48,4 +54,4 @@ module.exports = {
       }
     }
   ]
-};
+}

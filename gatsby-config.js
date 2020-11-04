@@ -13,12 +13,6 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-source-hubspot-forms',
-      options: {
-        apiKey: process.env.HUBSPOT_API_KEY
-      }
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Deadhead.Design`,

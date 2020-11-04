@@ -25,7 +25,6 @@ export default () => (
           <h2 className='text-center font-semibold text-lg'>Request an Email</h2>
           <HookContactForm />
         </div>
-        s
         <section className='max-w-sm w-full text-center ml-auto mr-auto mt-5'>
           <h2 className='font-semibold text-lg mt-5'>Reach Out</h2>
           <div className=''>

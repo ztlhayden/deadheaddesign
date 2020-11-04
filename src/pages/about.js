@@ -21,15 +21,15 @@ export default () => (
             and got my start in professional aviation at 18. After working for various local
             companies as a pilot, consultant, and instructor, I then shifted to a position at a
             regional airline. When I found myself made redundant in Fall of 2020, I decided to start
-            Deadhead.Designs.
+            my own business.
           </p>
           <p className='m-3'>
             In my time off, I enjoy cooking, biking, camping, photography, and a cold Ale-8-One.
           </p>
           <p className='m-3'>
-            But why pick Deadhead.Design? My experiences in web design, technical writing, and
-            instructing make me a great resource. I am excited to learn about your business and
-            vision and to build innovative ways to circulate to new customers.
+            Many companies invest money and time in marketing that does not produce results. I
+            realized I could use my skills in education and technical fields to identify problems
+            and create solutions that does make an impact.
           </p>
         </div>
       </div>

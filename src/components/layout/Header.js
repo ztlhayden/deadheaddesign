@@ -17,6 +17,9 @@ const Header = () => (
         </Link>
       </div>
       <div className='flex mt-4 sm:mt-0'>
+        <Link className='px-4 text-contrast_dark_lighter hover:text-white' to='/about/'>
+          About
+        </Link>
         <Link className='px-4 text-contrast_dark_lighter hover:text-white' to='/contact/'>
           Contact
         </Link>

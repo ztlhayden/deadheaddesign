@@ -5,7 +5,6 @@ import SEO from '../components/SEO'
 
 import PhoneIcon from '../assets/icon/phone.svg'
 import ComputerIcon from '../assets/icon/computer.svg'
-import HookContactForm from '../components/HookContactForm'
 
 export default () => (
   <Layout>
@@ -23,7 +22,6 @@ export default () => (
         </section>
         <div className='max-w-sm w-full p-3 ml-auto mr-auto mt-5 bg-contrast_dark text-white shadow-md rounded'>
           <h2 className='text-center font-semibold text-lg'>Request an Email</h2>
-          <HookContactForm />
         </div>
         <section className='max-w-sm w-full text-center ml-auto mr-auto mt-5'>
           <h2 className='font-semibold text-lg mt-5'>Reach Out</h2>

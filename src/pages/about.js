@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/layout/Layout'
 import SEO from '../components/SEO'
 
-import bio from '../assets/img/IMG_9623.jpg'
+import BioImg from '../components/BioImg'
 
 export default () => (
   <Layout>
@@ -11,9 +11,7 @@ export default () => (
     <div className='container m-auto'>
       <h1 className='m-10 text-center text-3xl font-semibold'>About Me</h1>
       <div className='flex flex-wrap justify-center'>
-        <div>
-          <img className='max-w-xs mr-5' src={bio} alt='Hayden Young' />
-        </div>
+        <BioImg className='max-w-sm w-4/5 lg:mr-10 mb-5' />
         <div className='max-w-sm'>
           <h2 className='text-center text-lg font-semibold'>Hayden Young, Owner</h2>
           <p className='m-3'>

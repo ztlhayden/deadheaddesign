@@ -1,3 +1,5 @@
+const path = require(`path`)
+
 module.exports = {
   siteMetadata: {
     title: `Deadhead.Design - Lexington Kentucky`,
@@ -27,7 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `./src/assets`
+        path: `${__dirname}/src/assets`,
+        name: 'img'
       }
     },
     'gatsby-plugin-svgr',

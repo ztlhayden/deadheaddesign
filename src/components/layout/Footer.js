@@ -9,7 +9,8 @@ const Footer = () => (
           <h2>About Hayden</h2>
         </Link>
         <p className='mt-5'>
-          After 5 years in professional aviation I now offer web presence and branding services.
+          After 5 years in professional aviation I now offer web presence and branding solutions for
+          small businesses.
         </p>
       </div>
       <div className='flex-1 px-3'>
@@ -21,13 +22,20 @@ const Footer = () => (
         </Link>
         <ul className='mt-4 leading-loose'>
           <li>
-            <a href='mailto:haydenyounglex@hotmail.com'>Email</a>
+            <a href='mailto:hayden@deadhead.design'>Email</a>
           </li>
           <li>
             <a href='tel:+18596840445'>(859) 684-0445</a>
           </li>
           <li>
-            <a href='https://haydenyoung.me'>haydenyoung.me</a>
+            <a href='https://haydenyoung.me' target='_blank' rel='noreferrer'>
+              haydenyoung.me
+            </a>
+          </li>
+          <li>
+            <a href='https://bonappeairplane.com/' target='_blank' rel='noreferrer'>
+              Technical Blog
+            </a>
           </li>
         </ul>
       </div>
@@ -35,13 +43,28 @@ const Footer = () => (
         <h2 className='text-lg font-semibold'>Social Media</h2>
         <ul className='mt-4 leading-loose'>
           <li>
-            <a href='https://www.linkedin.com/in/hayden-young-atp/'>LinkedIn</a>
+            <a href='https://www.facebook.com/deadheadwebdesign' target='_blank' rel='noreferrer'>
+              Facebook
+            </a>
           </li>
           <li>
-            <a href='https://twitter.com/haydenry'>Twitter</a>
+            <a
+              href='https://www.linkedin.com/in/hayden-young-atp/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              LinkedIn
+            </a>
           </li>
           <li>
-            <a href='https://github.com/ztlhayden'>GitHub</a>
+            <a href='https://twitter.com/haydenyounglex' target='_blank' rel='noreferrer'>
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a href='https://github.com/ztlhayden' target='_blank' rel='noreferrer'>
+              GitHub
+            </a>
           </li>
         </ul>
       </div>

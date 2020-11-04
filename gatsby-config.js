@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Deadhead.Design`,
-    description: `We offer website design in Lexington, Kentucky. Fast, affordable, and totally custom website creation and maintenance for your small business. Request a free quote today!`,
+    title: `Deadhead.Design - Lexington Kentucky`,
+    description: `I am a digital marketing problem solver. Fast, affordable, and totally custom marketing consulation for your small business. Request a meeting today!`,
     author: `Hayden Young`
   },
   plugins: [

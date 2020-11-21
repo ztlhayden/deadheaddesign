@@ -16,6 +16,8 @@ import SiteBeforeAfter from '../assets/img/site_beforeafter.svg'
 import PagePen from '../assets/img/page_pen_content.svg'
 import HeroImg from '../components/HeroImg'
 
+import { H3, H2 } from '../components/atoms/typo'
+
 export default () => (
   <Layout>
     <SEO title='Web Design and Marketing in Lexington Kentucky' />
@@ -42,30 +44,30 @@ export default () => (
 
     <section id='services' className='py-20 lg:pb-40 lg:pt-48'>
       <div className='container mx-auto text-center'>
-        <h2 className='text-3xl lg:text-5xl font-semibold'>Solution Based Marketing Plan</h2>
+        <H2>Solution Based Marketing Plan</H2>
         <div className='flex flex-col sm:flex-row sm:-mx-3 mt-12'>
           <div className='flex-1 px-3'>
-            <Card className='mb-8'>
-              <p className='font-semibold text-xl'>Social Media Management</p>
-              <p className='mt-4'>
+            <Card>
+              <H3>Social Media Management</H3>
+              <p>
                 Drive engagement with regular content that is aligned with your brand and goals, but
                 without all the hard work.
               </p>
             </Card>
           </div>
           <div className='flex-1 px-3'>
-            <Card className='mb-8'>
-              <p className='font-semibold text-xl'>Web Design</p>
-              <p className='mt-4'>
+            <Card>
+              <H3>Web Design</H3>
+              <p>
                 The cornerstone of your digital marketing, with the unique features your business
                 needs to turn visitors into customers.
               </p>
             </Card>
           </div>
           <div className='flex-1 px-3'>
-            <Card className='mb-8'>
-              <p className='font-semibold text-xl'>Branding and Print Design</p>
-              <p className='mt-4'>
+            <Card>
+              <H3>Branding and Print Design</H3>
+              <p>
                 Fully custom print and digital graphic design to ensure your brand is consistent on
                 every marketing channel.
               </p>
@@ -79,7 +81,7 @@ export default () => (
       reverseOrder
       primarySlot={
         <div className='lg:pl-32 xl:pl-48'>
-          <h3 className='text-3xl font-semibold leading-tight'>Analyze</h3>
+          <H2>Analyze</H2>
           <p className='mt-8 text-xl font-light leading-relaxed'>
             Get the most valuable information about your marketing and customers. See your
             investments make an impact.
@@ -92,7 +94,7 @@ export default () => (
     <SplitSection
       primarySlot={
         <div className='lg:pr-32 xl:pr-48'>
-          <h3 className='text-3xl font-semibold leading-tight'>Decide</h3>
+          <H2>Decide</H2>
           <p className='mt-8 text-xl font-light leading-relaxed'>
             I meet with you often help you understand analytics. Here we will discuss when, how, and
             why we will adjust.
@@ -106,7 +108,7 @@ export default () => (
       reverseOrder
       primarySlot={
         <div className='lg:pl-32 xl:pl-48'>
-          <h3 className='text-3xl font-semibold leading-tight'>Deploy</h3>
+          <H2>Deploy</H2>
           <p className='mt-8 text-xl font-light leading-relaxed'>
             Quickly get back to doing what you love to do, running your business, and let me put the
             plan we made into action.
@@ -119,7 +121,7 @@ export default () => (
     <SplitSection
       primarySlot={
         <div className='lg:pr-32 xl:pr-48'>
-          <h3 className='text-3xl font-semibold leading-tight'>Repeat</h3>
+          <H2>Repeat</H2>
           <p className='mt-8 text-xl font-light leading-relaxed'>
             I will be your partner, remaining on board for the long haul, to ensure the time and
             money spent never goes to waste.

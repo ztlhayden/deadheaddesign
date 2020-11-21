@@ -7,6 +7,16 @@ const Title = styled.h1`
   font-weight: 600;
 `
 
-const P = styled.p``
+const H2 = styled.h2`
+font-weight: 600;
+font-size: 1.875rem;
+`
 
-export { Title, P }
+//lg:text-5xl
+
+const H3 = styled.h3`
+  font-weight: 600;
+  font-size: 1.25rem;
+`
+
+export { Title, H2, H3 }

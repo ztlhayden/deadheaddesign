@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import PropTypes from 'prop-types'
 
-import styled from 'styled-components'
 import SEO from '../components/SEO'
 import Layout from '../components/layout/Layout'
 import { Title } from '../components/atoms/typo'
@@ -20,6 +20,10 @@ const ServicePage = ({ data }) => {
       </Container>
     </Layout>
   )
+}
+
+ServicePage.propTypes = {
+  html: PropTypes.string
 }
 
 export default ServicePage

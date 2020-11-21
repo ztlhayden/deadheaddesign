@@ -1,6 +1,6 @@
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-  const ServicePage = require.resolve(`./src/templates/ServicePage.js`)
+  const ServicePage = require.resolve(`./src/templates/ServicePage.tsx`)
   const result = await graphql(`
     {
       allMarkdownRemark(limit: 20) {

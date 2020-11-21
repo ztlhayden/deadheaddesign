@@ -1,5 +1,3 @@
-const path = require(`path`)
-
 module.exports = {
   siteMetadata: {
     title: `Deadhead.Design - Lexington Kentucky`,
@@ -14,6 +12,7 @@ module.exports = {
         trackingId: `UA-178800194-2`
       }
     },
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -31,6 +30,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/assets`,
         name: 'img'
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/ServicePageData`,
+        name: 'servicePages'
       }
     },
     'gatsby-plugin-svgr',

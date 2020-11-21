@@ -18,7 +18,7 @@ import HeroImg from '../components/HeroImg'
 
 export default () => (
   <Layout>
-    <SEO title='Home' />
+    <SEO title='Web Design and Marketing in Lexington Kentucky' />
     <section className='pt-20 md:pt-40'>
       <div className='container mx-auto px-8 lg:flex'>
         <div className='text-center lg:text-left lg:w-1/2 lg:mr-10 mb-10'>
@@ -26,9 +26,8 @@ export default () => (
             Soar to new hights
           </h1>
           <p className='text-xl lg:text-2xl mt-6 font-light'>
-            Locally owned in Lexington, Kentucky and passionate about helping other small
-            businesses, Deadhead Design is your online marketing partner. Get results with a problem
-            solver that follows through.
+            Deadhead.Design is a web development and marketing company in Lexington, Kentucky. I
+            love solving problems to help other small businesses grow.
           </p>
           <p className='mt-6 md:mt-10'>
             <Button size='lg'>Schedule Meeting</Button>
@@ -43,11 +42,11 @@ export default () => (
 
     <section id='services' className='py-20 lg:pb-40 lg:pt-48'>
       <div className='container mx-auto text-center'>
-        <h2 className='text-3xl lg:text-5xl font-semibold'>Solution Based Marketing</h2>
+        <h2 className='text-3xl lg:text-5xl font-semibold'>Solution Based Marketing Plan</h2>
         <div className='flex flex-col sm:flex-row sm:-mx-3 mt-12'>
           <div className='flex-1 px-3'>
             <Card className='mb-8'>
-              <p className='font-semibold text-xl'>Social Media</p>
+              <p className='font-semibold text-xl'>Social Media Management</p>
               <p className='mt-4'>
                 Drive engagement with regular content that is aligned with your brand and goals, but
                 without all the hard work.
@@ -56,7 +55,7 @@ export default () => (
           </div>
           <div className='flex-1 px-3'>
             <Card className='mb-8'>
-              <p className='font-semibold text-xl'>Website Design</p>
+              <p className='font-semibold text-xl'>Web Design</p>
               <p className='mt-4'>
                 The cornerstone of your digital marketing, with the unique features your business
                 needs to turn visitors into customers.
@@ -65,7 +64,7 @@ export default () => (
           </div>
           <div className='flex-1 px-3'>
             <Card className='mb-8'>
-              <p className='font-semibold text-xl'>Graphic Design</p>
+              <p className='font-semibold text-xl'>Branding and Print Design</p>
               <p className='mt-4'>
                 Fully custom print and digital graphic design to ensure your brand is consistent on
                 every marketing channel.

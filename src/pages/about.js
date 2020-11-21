@@ -7,7 +7,7 @@ import BioImg from '../components/BioImg'
 
 export default () => (
   <Layout>
-    <SEO title='About' />
+    <SEO title='About' description='About Deadhead.Design. Who are we? How did we start?' />
     <div className='container m-auto'>
       <h1 className='m-10 text-center text-3xl font-semibold'>About Me</h1>
       <div className='flex flex-wrap justify-center'>

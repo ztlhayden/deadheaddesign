@@ -10,9 +10,12 @@ import ImgCodePen from '../components/portfolio_photos/ImgCodePen'
 
 export default () => (
   <Layout>
-    <SEO title='Past Work' />
+    <SEO
+      title='Past Work'
+      description="See Deadhead.Design's growing portfolio of great print, branding, and web design work."
+    />
     <div className='container m-auto'>
-      <h1 className='m-10 text-center text-3xl font-semibold'>Portfolio</h1>
+      <h1 className='m-10 text-center text-3xl font-semibold'>Check out these great projects.</h1>
       <div className='flex flex-wrap justify-around'>
         <PortfolioItems name='My Online Resume' url='https://haydenyoung.me/'>
           <ImgHaydenYoungMe />

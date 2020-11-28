@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Deadhead.Design - Lexington Kentucky`,
     description: `I am a digital marketing problem solver. Fast, affordable, and totally custom marketing consulation for your small business. Request a meeting today!`,
-    author: `Hayden Young`
+    author: `Hayden Young`,
+    siteUrl: 'https://deadhead.design/'
   },
   plugins: [
     {
@@ -46,6 +47,49 @@ module.exports = {
       resolve: `gatsby-theme-codebushi`,
       options: {
         tailwindConfig: `tailwind.config.js`
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://deadhead.design',
+        sitemap: 'https://deadhead.design/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        // Exclude specific pages or groups of pages using glob parameters
+        // See: https://github.com/isaacs/minimatch
+        // The example below will exclude the single `path/to/page` and all routes beginning with `category`
+        exclude: [`/category/*`, `/path/to/page`],
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+            allSitePage {
+              nodes {
+                path
+              }
+            }
+        }`,
+        resolveSiteUrl: ({ site, allSitePage }) => {
+          // Alternatively, you may also pass in an environment variable (or any location) at the beginning of your `gatsby-config.js`.
+          return site.siteMetadata.siteUrl
+        },
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.nodes.map(node => {
+            return {
+              url: `${site.siteMetadata.siteUrl}${node.path}`,
+              changefreq: `daily`,
+              priority: 0.7
+            }
+          })
       }
     },
     {

@@ -29,14 +29,6 @@ const Header = () => (
         <Link className='px-4 text-contrast_dark_lighter hover:text-white' to='/portfolio/'>
           Portfolio
         </Link>
-        <a
-          className='px-4 text-contrast_dark_lighter hover:text-white'
-          href='https://bonappeairplane.com/'
-          target='_blank'
-          rel='noreferrer'
-        >
-          Blog
-        </a>
       </div>
     </div>
   </header>

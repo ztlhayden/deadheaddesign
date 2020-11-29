@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Deadhead.Design - Lexington Kentucky`,
+    title: `Deadhead.Design`,
     description: `I am a digital marketing problem solver. Fast, affordable, and totally custom marketing consulation for your small business. Request a meeting today!`,
     author: `Hayden Young`,
     siteUrl: 'https://deadhead.design/'

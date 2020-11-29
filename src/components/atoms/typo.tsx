@@ -9,7 +9,7 @@ const Title = styled.h1`
 
 const H2 = styled.h2`
 font-weight: 600;
-font-size: 1.875rem;
+font-size: 1.675rem;
 `
 
 //lg:text-5xl

@@ -9,7 +9,7 @@ seoMeta: 'Deadhead Design can design an image for your business that will stand 
 
 Your business's brand is the first chance to impress your potential customers, giving them an idea of what to expect. A memorable, trust worthly brand will build confidence in your service.
 
-Deadhead Design can design an image for your business that will stand out in the minds of customers. And consistency is key! From logos to invoices, proposals, social media, and signage, a consistent brand will make it clear who you are.
+Deadhead Design can design an image for your business that will stand out in the minds of customers. And consistency is key! From logos and proposals to invoices, social media, and signage, a consistent brand will make it clear who you are.
 
 As a small business ourselves, we understand you might not need more than just a basic logo and some pointers. That's why we don't sell set packages at predefined rates. Every quote is directed at your specific needs.
 
@@ -23,10 +23,10 @@ Inhouse design on all kinds of branding materials:
 - Presentations
 - Signs
 - Vehicle Wraps
-- Social Media Banners
 - Retail Packaging
 - E-Comm Shipping Materials
+- Social Media Banners
 
-We can also coordinate printing/signage production through our local vendors in Lexington, Ky.
+But we won't stop there. We can also save you time by coordinating printing/signage production through our local vendors in Lexington, Ky.
 
-If you're just getting started or looking to shake things up, give your branding the time it deserves.
+If you're just getting started or looking to shake things up, give your branding the time it deserves. You won't regret it.

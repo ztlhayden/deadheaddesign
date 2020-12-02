@@ -3,7 +3,8 @@ import {Link} from 'gatsby'
 
 const NavButton = styled(Link)`
   padding: 0 1rem;
-  color: gray;
+  color: var(--contrast_dark_lighter);
+  
   :hover {
     color: white;
   }

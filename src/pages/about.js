@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Layout from '../components/layout/Layout'
-import SEO from '../components/SEO'
+import SEO from '../components/util/SEO'
 
-import BioImg from '../components/BioImg'
+import BioImg from '../components/atoms/QueryImages/BioImg'
 
 export default () => (
   <Layout>

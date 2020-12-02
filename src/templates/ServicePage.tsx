@@ -4,9 +4,9 @@ import styled from 'styled-components'
 import { graphql } from 'gatsby'
 
 import Img from 'gatsby-image'
-import SEO from '../components/SEO'
+import SEO from '../components/util/SEO'
 import Layout from '../components/layout/Layout'
-import Button from '../components/Button'
+import Button from '../components/atoms/Button'
 import { Title } from '../components/atoms/typo'
 
 const ServiceWrapper = styled.div`

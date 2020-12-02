@@ -1,12 +1,12 @@
 import React from 'react'
 
 import Layout from '../components/layout/Layout'
-import SEO from '../components/SEO'
-import PortfolioItems from '../components/PortfolioItems'
-import ImgHaydenYoungMe from '../components/portfolio_photos/ImgHaydenYoungMe'
-import ImgRiverOfLife from '../components/portfolio_photos/ImgRiverOfLife'
-import ImgBonAppeAirplane from '../components/portfolio_photos/ImgBonAppeAirline'
-import ImgCodePen from '../components/portfolio_photos/ImgCodePen'
+import SEO from '../components/util/SEO'
+import PortfolioItems from '../components/Portfolio/PortfolioItems'
+import ImgHaydenYoungMe from '../components/Portfolio/portfolio_photos/ImgHaydenYoungMe'
+import ImgRiverOfLife from '../components/Portfolio/portfolio_photos/ImgRiverOfLife'
+import ImgBonAppeAirplane from '../components/Portfolio/portfolio_photos/ImgBonAppeAirline'
+import ImgCodePen from '../components/Portfolio/portfolio_photos/ImgCodePen'
 
 export default () => (
   <Layout>

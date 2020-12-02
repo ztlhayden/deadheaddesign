@@ -1,12 +1,12 @@
 import React from 'react'
 
 import Layout from '../components/layout/Layout'
-import SEO from '../components/SEO'
+import SEO from '../components/util/SEO'
 
 import PhoneIcon from '../assets/icon/phone.svg'
 import ComputerIcon from '../assets/icon/computer.svg'
-import Button from '../components/Button'
-import Icon from '../components/icon'
+import Button from '../components/atoms/Button'
+import Icon from '../components/atoms/icon'
 
 export default () => (
   <Layout>

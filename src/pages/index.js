@@ -1,20 +1,20 @@
 import React from 'react'
 
-import SEO from '../components/SEO'
-import Button from '../components/Button'
-import Card from '../components/Card'
+import SEO from '../components/util/SEO'
+import Button from '../components/atoms/Button'
+import Card from '../components/atoms/Card'
 // import CustomerCard from '../components/CustomerCard';
-import LabelText from '../components/LabelText'
+import LabelText from '../components/atoms/LabelText'
 import Layout from '../components/layout/Layout'
-import SplitSection from '../components/SplitSection'
-import StatsBox from '../components/StatsBox'
+import SplitSection from '../components/molecules/SplitSection'
+import StatsBox from '../components/molecules/StatsBox'
 // import customerData from '../data/customer-data';
 
+import HeroImg from '../components/atoms/QueryImages/HeroImg'
 import WebSearchPage from '../assets/img/web_search_page.svg'
 import graph from '../assets/img/graph_color.svg'
 import SiteBeforeAfter from '../assets/img/site_beforeafter.svg'
 import PagePen from '../assets/img/page_pen_content.svg'
-import HeroImg from '../components/HeroImg'
 
 import { H3, H2 } from '../components/atoms/typo'
 

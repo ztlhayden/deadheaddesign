@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import LogoIcon from '../../../assets/icon/dd_icon.svg'
-import NavButton from './atoms/NavButton'
+import NavButton from './NavBar/NavButton'
 
 const Header = () => (
   <header className='sticky top-0 bg-contrast_dark text-white shadow z-50'>

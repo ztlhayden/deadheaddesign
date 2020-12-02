@@ -1,5 +1,15 @@
 import React from 'react'
+import styled from 'styled-components'
 import { Link } from 'gatsby'
+
+const FooterWrapper = styled.footer`
+  width: 100%;
+  color: gray;
+  margin-top: 48rem;
+  margin-bottom: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+`
 
 const Footer = () => (
   <footer className='container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800'>

@@ -19,6 +19,7 @@
     "gatsby-plugin-sharp": "^2.7.1",
     "gatsby-plugin-sitemap": "^2.7.0",
     "gatsby-plugin-svgr": "^2.0.2",
+    "gatsby-plugin-typescript": "^2.8.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.4.1",
     "gatsby-theme-codebushi": "1.0.0",
@@ -35,6 +36,9 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^5.4.0",
+    "@types/styled-components": "^5.1.4",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.15.0",

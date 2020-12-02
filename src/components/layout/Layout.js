@@ -1,16 +1,16 @@
 import React from 'react'
+import GlobalStyle from './GlobalStyles/GlobalStyle'
 import Footer from './Footer'
-import Header from './Header'
-
-import '../../styles/styles.css'
+import Header from './Header/Header'
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <body>
+      <GlobalStyle />
       <Header />
       <main className='text-grey=-900'>{children}</main>
       <Footer />
-    </div>
+    </body>
   )
 }
 

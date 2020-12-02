@@ -6,33 +6,31 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import SEO from '../components/SEO'
 import Layout from '../components/layout/Layout'
+import Button from '../components/Button'
 import { Title } from '../components/atoms/typo'
 
 const ServiceWrapper = styled.div`
-  position: relative;
   margin: 0 auto;
 
   .hero {
-    width: 100%;
-    max-width: 2560px;
-    margin: 0 auto;
-    position: relative;
+    margin: 20px 0;
   }
 
-  h1 {
-    color: white;
-    position: absolute;
-    top: 100px;
-  }
-
-  h2 {
-    font-weight: 600;
-    font-size: 1.675rem;
-    margin-top: 10px;
+  .cta {
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
   }
 `
 
-const Body = styled.div``
+const Body = styled.div`
+  display: grid;
+  
+  p {
+    margin: 10px;
+  }
+`
 
 const ServicePage = ({ data }) => {
   const { markdownRemark } = data
@@ -42,9 +40,14 @@ const ServicePage = ({ data }) => {
     <Layout>
       <SEO title={frontmatter.seoTitle} description={frontmatter.seoMeta} />
       <ServiceWrapper>
-        <Img className='hero' fluid={frontmatter.featuredImage.childImageSharp.fluid} alt={frontmatter.alt}/>
         <Title>{frontmatter.title}</Title>
-        <Body dangerouslySetInnerHTML={{ __html: html }} />
+        <Body>
+          <Img className='hero' fluid={frontmatter.featuredImage.childImageSharp.fluid} alt={frontmatter.alt}/>
+          <div>
+            <div dangerouslySetInnerHTML={{ __html: html }} />
+            <Button size='lg' className='cta'>Free Quote</Button>
+          </div>
+        </Body>
       </ServiceWrapper>
     </Layout>
   )

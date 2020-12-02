@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import LogoIcon from '../../assets/icon/dd_icon.svg'
+import LogoIcon from '../../../assets/icon/dd_icon.svg'
+import NavButton from './atoms/NavButton'
 
 const Header = () => (
   <header className='sticky top-0 bg-contrast_dark text-white shadow z-50'>
@@ -17,18 +18,10 @@ const Header = () => (
         </Link>
       </div>
       <div className='flex mt-4 sm:mt-0'>
-        <Link className='px-4 text-contrast_dark_lighter hover:text-white' to='/about/'>
-          About
-        </Link>
-        <Link className='px-4 text-contrast_dark_lighter hover:text-white' to='/contact/'>
-          Contact
-        </Link>
-        <Link className='px-4 text-contrast_dark_lighter hover:text-white' to='/#services'>
-          Services
-        </Link>
-        <Link className='px-4 text-contrast_dark_lighter hover:text-white' to='/portfolio/'>
-          Portfolio
-        </Link>
+        <NavButton to='/about/'>About</NavButton>
+        <NavButton to='/contact/'>Contact</NavButton>
+        <NavButton to='/#services'>Services</NavButton>
+        <NavButton to='/portfolio/'>Portfolio</NavButton>
       </div>
     </div>
   </header>

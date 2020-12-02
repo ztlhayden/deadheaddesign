@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import GlobalStyle from './GlobalStyles/GlobalStyle'
 import Footer from './Footer/Footer'
 import Header from './Header/Header'
@@ -12,6 +14,10 @@ const Layout = ({ children }) => {
       <Footer />
     </body>
   )
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired
 }
 
 export default Layout

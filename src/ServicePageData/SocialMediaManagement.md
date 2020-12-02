@@ -4,7 +4,7 @@ title: 'Social Media Management'
 featuredImage: ../assets/services/socialmedia.jpg
 alt: 'Woman using computer and a mobile phone with social media apps.'
 seoTitle: 'Social Media Manager, Lexington Kentucky'
-seoMeta: 'With Deadhead.Design's social media management service, you access tools and coaching that will ensure you're getting the most out of your business's social media campaign. Learn more.'
+seoMeta: "With Deadhead.Design's social media management service, you access tools and coaching that will ensure you're getting the most out of your business's social media campaign. Learn more."
 ---
 
 Business Social Media can be a great tool to engage new and existing customers. But social media marketing is complicated and time-consuming. Hiring a dedicated social media manager is expensive and sometimes just not possible.

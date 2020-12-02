@@ -4,7 +4,7 @@ title: 'Logo Design and Branding for Small Businesses'
 featuredImage: ../assets/img/services/branding.jpg
 alt: 'White cut out chat bubble on a bright pink background.'
 seoTitle: 'Logo Design Lexington Kentucky'
-seoMeta: 'Deadhead Design can design an image for your business that will stand out in the minds of customers. Your business's brand is the first chance to impress your potential customers, giving them an idea of what to expect. A memorable, trust worthly brand will build confidence in your service.'
+seoMeta: "Deadhead Design can design an image for your business that will stand out in the minds of customers. Your business's brand is the first chance to impress your potential customers, giving them an idea of what to expect. A memorable, trust worthly brand will build confidence in your service."
 ---
 
 Your business's brand is the first chance to impress your potential customers, giving them an idea of what to expect. A memorable, trust worthly brand will build confidence in your service.

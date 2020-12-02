@@ -4,7 +4,7 @@ title: 'Online Reputation Management'
 featuredImage: ../assets/img/services/reviews.jpg
 alt: 'A woman talking to an employee at a coffee shop.'
 seoTitle: 'Review Marketing Lexington, KY'
-seoMeta: 'Most people say they trust businesses' online reviews as much as a personal recommendation! What do your customers see when they search for your company online?'
+seoMeta: "Most people say they trust businesses' online reviews as much as a personal recommendation! What do your customers see when they search for your company online?"
 ---
 
 Most people say they trust businesses' online reviews as much as a personal recommendation! What do your customers see when they search for your company online? Even if most of your business comes from word of mouth, you can bet people are still searching for you online.

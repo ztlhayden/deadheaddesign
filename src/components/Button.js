@@ -1,5 +1,10 @@
 import React from 'react'
+import styled from 'styled-components'
 import { navigate } from 'gatsby'
+
+const StyledButton = styled.a`
+  border-radius: 0.25rem;
+`
 
 const sizes = {
   default: `py-3 px-8`,
@@ -9,7 +14,7 @@ const sizes = {
 
 const Button = ({ children, className = '', size }) => {
   return (
-    <a
+    <StyledButton
       href='https://share.hsforms.com/1Z42l_4JPRRO5i-0se3WYOw57bzd'
       target='_blank'
       className={`
@@ -17,13 +22,12 @@ const Button = ({ children, className = '', size }) => {
         ${className}
         bg-contrast_light
         hover:bg-contrast_light_darker
-        rounded
         text-bright_white
         font-semibold
       `}
     >
       {children}
-    </a>
+    </StyledButton>
   )
 }
 

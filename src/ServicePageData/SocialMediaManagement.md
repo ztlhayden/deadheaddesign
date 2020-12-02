@@ -1,7 +1,7 @@
 ---
 slug: '/services/social-media-management'
 title: 'Social Media Management'
-featuredImage: ../assets/services/socialmedia.jpg
+featuredImage: ../assets/img/services/socialmedia.jpg
 alt: 'Woman using computer and a mobile phone with social media apps.'
 seoTitle: 'Social Media Manager, Lexington Kentucky'
 seoMeta: "With Deadhead.Design's social media management service, you access tools and coaching that will ensure you're getting the most out of your business's social media campaign. Learn more."

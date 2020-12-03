@@ -6,7 +6,7 @@ const NavButton = styled(Link)`
   color: var(--contrast_dark_lighter);
   
   :hover {
-    color: white;
+    color: var(--white);
   }
 `
 

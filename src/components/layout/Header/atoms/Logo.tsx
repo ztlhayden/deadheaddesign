@@ -12,7 +12,7 @@ const LogoContainer = styled(Link)`
     display: inline;
   }
 
-  span {
+  span { 
     margin-left: 1rem;
     font-size: 1.25rem;
   }

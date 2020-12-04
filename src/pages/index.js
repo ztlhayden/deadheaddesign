@@ -25,7 +25,7 @@ export default () => (
       <div className='container mx-auto px-8 lg:flex'>
         <div className='text-center lg:text-left lg:w-1/2 lg:mr-10 mb-10'>
           <h1 className='text-4xl lg:text-5xl xl:text-6xl font-bold leading-none'>
-            Soar to new hights
+            Soar to new heights
           </h1>
           <p className='text-xl lg:text-2xl mt-6 font-light'>
             Deadhead.Design is a web development and marketing company in Lexington, Kentucky. I

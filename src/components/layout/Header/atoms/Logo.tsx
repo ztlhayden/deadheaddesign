@@ -8,7 +8,7 @@ const LogoContainer = styled(Link)`
   color: var(--white);
 
   img {
-    width: 3rem;
+    width: 3.5rem;
     display: inline;
   }
 
@@ -22,9 +22,9 @@ const LogoContainer = styled(Link)`
   }
 `
 
-const Logo = () => {
+const Logo = ({className}) => {
   return (
-    <LogoContainer to='/'>
+    <LogoContainer className={className} to='/'>
       <img src={LogoIcon} alt='Deadhead Design Logo' />
       <span>Deadhead.Design</span>
     </LogoContainer>

@@ -1,30 +1,47 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import styled from 'styled-components'
+import { device } from '../GlobalStyles/Styles/devices'
 
-import LogoIcon from '../../../assets/icon/dd_icon.svg'
-import NavButton from './NavBar/NavButton'
+import Logo from './atoms/Logo'
+import NavBar from './NavBar/NavBar'
+
+const HeaderContainer = styled.header`
+  background-color: var(--contrast_dark);
+  color: var(--white);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+
+  .logo {
+    span {
+      display: none;
+    }
+  }
+
+  @media ${device.mobileM} {
+    .logo {
+      span {
+        display: inline;
+      }
+    }
+  }
+  @media ${device.tablet} {
+    flex-direction: row;
+  }
+`
 
 const Header = () => (
-  <header className='sticky top-0 bg-contrast_dark text-white shadow z-50'>
-    <div className='container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8'>
-      <div className='flex items-center text-2xl'>
-        <div className='w-12 mr-4'>
-          <Link to='/'>
-            <img src={LogoIcon} alt='Logo' />
-          </Link>
-        </div>
-        <Link to='/' className='text-white hover:text-contrast_dark_lighter'>
-          Deadhead.Design
-        </Link>
-      </div>
-      <div className='flex mt-4 sm:mt-0'>
-        <NavButton to='/about/'>About</NavButton>
-        <NavButton to='/contact/'>Contact</NavButton>
-        <NavButton to='/#services'>Services</NavButton>
-        <NavButton to='/portfolio/'>Portfolio</NavButton>
-      </div>
-    </div>
-  </header>
+  <HeaderContainer>
+    <Logo className='logo' />
+    <NavBar />
+  </HeaderContainer>
 )
 
 export default Header

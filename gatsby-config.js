@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: 'https://deadhead.design/'
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-gtag`,
       options: {

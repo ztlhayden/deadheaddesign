@@ -25,7 +25,6 @@ Inhouse design on all kinds of branding materials:
 - Vehicle Wraps
 - Retail Packaging
 - E-Comm Shipping Materials
-- Social Media Banners
 
 But we won't stop there. We can also save you time by coordinating printing/signage production through our local vendors in Lexington, Ky.
 

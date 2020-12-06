@@ -1,18 +1,29 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
 import { useStaticQuery, graphql } from "gatsby"
+import { device } from '../../GlobalStyles/Styles/devices'
 
 import NavButton from './NavButton'
 
 const ServiceNavContainer = styled.div`
   background-color: inherit;
 
+  a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
   .hideSvc {
     height: 0;
   }
 
   .showSvc {
     height: 368px;
+
+    @media ${device.laptop} {
+      height: 317px;
+      border-radius: 3px;
+    }
   }
 `
 

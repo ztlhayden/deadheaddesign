@@ -26,6 +26,7 @@ const NavBarContainer = styled.div`
       position: relative;
       top: 10%;
       display: flex;
+      overflow: visible;
     }
   }
 

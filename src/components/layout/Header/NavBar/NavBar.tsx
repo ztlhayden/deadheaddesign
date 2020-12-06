@@ -70,7 +70,7 @@ const NavBar = () => {
         <NavButton onFocus={handleFocus} to='/about/'>About</NavButton>
         <NavButton to='/contact/'>Contact</NavButton>
         <NavButton to='/portfolio/'>Our Work</NavButton>
-        <NavButton to='/'>Blog</NavButton>
+        <NavButton to='/blog'>Blog</NavButton>
       </nav>
     </NavBarContainer>
   )

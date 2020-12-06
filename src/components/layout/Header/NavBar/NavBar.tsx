@@ -24,6 +24,7 @@ const NavBarContainer = styled.div`
 
     @media ${device.laptop} {
       position: relative;
+      top: 10%;
       display: flex;
     }
   }

@@ -1,20 +1,29 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
+import { device } from '../GlobalStyles/Styles/devices'
 
 const FooterWrapper = styled.footer`
-  width: 100%;
-  color: gray;
-  margin-top: 48rem;
+  //width: 100%;
+  color: var(--black);
+  margin-top: 100px;
   margin-bottom: 2rem;
   margin-right: auto;
   margin-left: auto;
+
+  .about {
+    display: none;
+
+    @media ${device.laptop} {
+      display: block;
+    }
+  }
 `
 
 const Footer = () => (
-  <footer className='container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800'>
-    <div className='flex -mx-3'>
-      <div className='flex-1 px-3'>
+  <FooterWrapper>
+    <div className='flex mx-3'>
+      <div className='flex-1 px-3 about'>
         <Link to='/about/' className='text-lg font-semibold hover:text-contrast_dark text-gray-800'>
           <h2>About Hayden</h2>
         </Link>
@@ -32,20 +41,10 @@ const Footer = () => (
         </Link>
         <ul className='mt-4 leading-loose'>
           <li>
-            <a href='mailto:hayden@deadhead.design'>Email</a>
+            <a href='mailto:hayden@deadhead.design'>hayden@deadhead.design</a>
           </li>
           <li>
             <a href='tel:+18596840445'>(859) 684-0445</a>
-          </li>
-          <li>
-            <a href='https://haydenyoung.me' target='_blank' rel='noreferrer'>
-              haydenyoung.me
-            </a>
-          </li>
-          <li>
-            <a href='https://bonappeairplane.com/' target='_blank' rel='noreferrer'>
-              Technical Blog
-            </a>
           </li>
         </ul>
       </div>
@@ -79,7 +78,7 @@ const Footer = () => (
         </ul>
       </div>
     </div>
-  </footer>
+  </FooterWrapper>
 )
 
 export default Footer

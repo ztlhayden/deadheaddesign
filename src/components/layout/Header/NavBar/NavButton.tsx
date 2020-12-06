@@ -1,12 +1,23 @@
 import styled from 'styled-components'
 import {Link} from 'gatsby'
+import { device } from '../../GlobalStyles/Styles/devices'
 
 const NavButton = styled(Link)`
-  padding: 0 1rem;
   color: var(--contrast_dark_lighter);
-  
+  width: 100px;
+  font-size: 24px;
+  padding: 5px;
+  margin-bottom: 5px;
+  display: block;
+  text-align: center;
+
   :hover {
     color: var(--white);
+  }
+
+  @media ${device.laptop} {
+    font-size: inherit;
+    margin-left: 10px;
   }
 `
 

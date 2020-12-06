@@ -22,23 +22,9 @@ const NavBarContainer = styled.div`
     transition: width .13s ease-out;
     overflow: hidden;
 
-    a {
-      font-size: 24px;
-      padding: 5px;
-      margin-bottom: 5px;
-      display: block;
-      text-align: center;
-    }
-
     @media ${device.laptop} {
       position: relative;
       display: flex;
-      width: fit-content;
-
-      a{
-        font-size: inherit;
-        margin-left: 10px;
-      }
     }
   }
 
@@ -51,6 +37,8 @@ const NavBarContainer = styled.div`
   }
 
   @media ${device.laptop} {
+    height: 50px;
+
     .show {
       width: auto;
     }
@@ -78,9 +66,9 @@ const NavBar = () => {
       <nav className={vis ? 'show' : 'hide'}>
         <NavButton onFocus={handleFocus} to='/about/'>About</NavButton>
         <NavButton to='/contact/'>Contact</NavButton>
-        {/* <ServicesNav /> */}
-        <NavButton to='/'>Blog</NavButton>
+        <ServicesNav />
         <NavButton to='/portfolio/'>Our Work</NavButton>
+        <NavButton to='/'>Blog</NavButton>
       </nav>
     </NavBarContainer>
   )

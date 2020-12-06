@@ -4,14 +4,27 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import NavButton from './NavButton'
 
-const Nav = styled.ul`
-  button {
-    display: inline;
-    height: 20px;
+const ServiceNavContainer = styled.div`
+  background-color: inherit;
+
+  .hideSvc {
+    height: 0;
+  }
+
+  .showSvc {
+    height: 368px;
   }
 `
 
-const Button = styled.button``
+const Nav = styled.ul`
+  overflow: hidden;
+  background-color: inherit;
+  transition: height .15s ease-in-out;
+`
+
+const Button = styled.button`
+  //blank
+`
 
 const NavItem = (page) => {
   const link = page.frontmatter.link
@@ -23,7 +36,7 @@ const NavItem = (page) => {
 }
 
 const ServicesNav = () => {
-  const [isVis, setVis] = useState()
+  const [isVis, setVis] = useState(false)
   const data = useStaticQuery(graphql`
     {
       allMarkdownRemark {
@@ -39,12 +52,12 @@ const ServicesNav = () => {
   const pages = data.allMarkdownRemark.nodes
 
   return (
-    <div>
-      <NavButton onClick={e => console.log(e)} as={Button}>Hello</NavButton>
-      <Nav>
+    <ServiceNavContainer>
+      <NavButton onClick={() => setVis(!isVis)} as={Button}>Services</NavButton>
+      <Nav className={isVis ? 'showSvc' : 'hideSvc'}>
         {pages.map(page => NavItem(page))}
       </Nav>
-    </div>
+    </ServiceNavContainer>
   )
 }
 

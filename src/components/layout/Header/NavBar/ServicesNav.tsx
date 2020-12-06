@@ -11,6 +11,8 @@ const Nav = styled.ul`
   }
 `
 
+const Button = styled.button``
+
 const NavItem = (page) => {
   const link = page.frontmatter.link
   const slug= page.frontmatter.slug
@@ -38,7 +40,7 @@ const ServicesNav = () => {
 
   return (
     <div>
-      <button>Hello</button>
+      <NavButton onClick={e => console.log(e)} as={Button}>Hello</NavButton>
       <Nav>
         {pages.map(page => NavItem(page))}
       </Nav>

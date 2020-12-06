@@ -59,7 +59,7 @@ const NavBarContainer = styled.div`
       width: auto;
     }
 
-    button {
+    button#hammie {
       display: none;
     }
   }
@@ -72,13 +72,13 @@ const NavBar = () => {
 
   return (
     <NavBarContainer>
-      <button onClick={() => setVis(!vis)}>
+      <button id='hammie' onClick={() => setVis(!vis)}>
         <Icon symbol='hamburger' />  
       </button>
       <nav className={vis ? 'show' : 'hide'}>
         <NavButton onFocus={handleFocus} to='/about/'>About</NavButton>
         <NavButton to='/contact/'>Contact</NavButton>
-        <ServicesNav />
+        {/* <ServicesNav /> */}
         <NavButton to='/'>Blog</NavButton>
         <NavButton to='/portfolio/'>Our Work</NavButton>
       </nav>

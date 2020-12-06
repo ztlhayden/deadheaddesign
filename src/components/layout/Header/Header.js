@@ -18,6 +18,7 @@ const HeaderContainer = styled.header`
   justify-content: space-between;
   margin: 0 auto;
   padding: 1rem 3rem;
+  height: 100px;
 
   .logo {
     span {

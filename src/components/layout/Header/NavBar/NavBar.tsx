@@ -66,9 +66,9 @@ const NavBar = () => {
         <Icon symbol='hamburger' />  
       </button>
       <nav className={vis ? 'show' : 'hide'}>
+        <ServicesNav />
         <NavButton onFocus={handleFocus} to='/about/'>About</NavButton>
         <NavButton to='/contact/'>Contact</NavButton>
-        <ServicesNav />
         <NavButton to='/portfolio/'>Our Work</NavButton>
         <NavButton to='/'>Blog</NavButton>
       </nav>

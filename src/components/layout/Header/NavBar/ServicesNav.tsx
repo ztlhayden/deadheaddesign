@@ -7,21 +7,16 @@ import NavButton from './NavButton'
 
 const ServiceNavContainer = styled.div`
   background-color: inherit;
-
-  a {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
   
   .hideSvc {
     height: 0;
   }
 
   .showSvc {
-    height: 368px;
+    height: 408px;
 
     @media ${device.laptop} {
-      height: 317px;
+      height: 312px;
       border-radius: 3px;
     }
   }
@@ -34,6 +29,8 @@ const Nav = styled.ul`
 `
 
 const Button = styled.button`
+  margin-left: auto;
+  margin-right: 0;
   //blank
 `
 

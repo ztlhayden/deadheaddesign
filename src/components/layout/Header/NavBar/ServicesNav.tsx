@@ -1,24 +1,48 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
-import {Link} from 'gatsby'
+import { useStaticQuery, graphql } from "gatsby"
 
-const Nav = styled.ul``
+import NavButton from './NavButton'
 
-const Button = styled(Link)``
+const Nav = styled.ul`
+  button {
+    display: inline;
+    height: 20px;
+  }
+`
 
-const NavItem = ({to, value}) => {
+const NavItem = (page) => {
+  const link = page.frontmatter.link
+  const slug= page.frontmatter.slug
+
   return (
-    <li key={value}><Button to={to}>{value}</Button></li>
+    <li key={link}><NavButton to={slug}>{link}</NavButton></li>
   )
 }
 
 const ServicesNav = () => {
   const [isVis, setVis] = useState()
-  
+  const data = useStaticQuery(graphql`
+    {
+      allMarkdownRemark {
+        nodes {
+          frontmatter {
+            slug
+            link
+          }
+        }
+      }
+    }
+  `)
+  const pages = data.allMarkdownRemark.nodes
+
   return (
-    <Nav>
-      <li key={}><Link to={}>{}</Link></li>
-    </Nav>
+    <div>
+      <button>Hello</button>
+      <Nav>
+        {pages.map(page => NavItem(page))}
+      </Nav>
+    </div>
   )
 }
 

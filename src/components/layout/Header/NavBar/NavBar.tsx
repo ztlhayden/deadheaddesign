@@ -4,6 +4,7 @@ import { device } from '../../GlobalStyles/Styles/devices'
 
 import Icon from '../../../atoms/icon'
 import NavButton from './NavButton'
+import ServicesNav from './ServicesNav'
 
 const NavBarContainer = styled.div`
   display: flex;
@@ -77,8 +78,8 @@ const NavBar = () => {
       <nav className={vis ? 'show' : 'hide'}>
         <NavButton onFocus={handleFocus} to='/about/'>About</NavButton>
         <NavButton to='/contact/'>Contact</NavButton>
-        <NavButton to='/#services'>Services</NavButton>
-        {/* Blog */}
+        <ServicesNav />
+        <NavButton to='/'>Blog</NavButton>
         <NavButton to='/portfolio/'>Our Work</NavButton>
       </nav>
     </NavBarContainer>

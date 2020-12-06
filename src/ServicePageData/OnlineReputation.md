@@ -1,5 +1,6 @@
 ---
 slug: '/services/online-reputation'
+link: 'Online Reputation'
 title: 'Online Reputation Management'
 featuredImage: ../assets/img/services/reviews.jpg
 alt: 'A woman talking to an employee at a coffee shop.'

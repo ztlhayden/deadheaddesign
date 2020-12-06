@@ -1,5 +1,6 @@
 ---
 slug: '/services/social-media-management'
+link: 'Social Media'
 title: 'Social Media Management'
 featuredImage: ../assets/img/services/socialmedia.jpg
 alt: 'Woman using computer and a mobile phone with social media apps.'

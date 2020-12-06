@@ -1,5 +1,6 @@
 ---
 slug: '/services/web-design'
+link: 'Web Design'
 title: 'Custom Web Design'
 featuredImage: ../assets/img/services/custom-website.jpg
 alt: 'Code being written on a computer screen.'

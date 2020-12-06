@@ -1,5 +1,6 @@
 ---
 slug: '/services/logo-design'
+link: 'Branding'
 title: 'Logo Design and Branding for Small Businesses'
 featuredImage: ../assets/img/services/branding.jpg
 alt: 'White cut out chat bubble on a bright pink background.'

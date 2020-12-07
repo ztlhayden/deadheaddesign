@@ -38,7 +38,7 @@ const Blog = () => {
 
   return (
     <Layout>
-      <SEO />
+      <SEO title='Blog' description='Read the latest news and updates from Deadhead.Design, as well as industry news and marketing tips.'/>
       <Title>Latest Blog Posts</Title>
       <PostsWrapper>
         {posts.map(post => BlogPostPreview(post))}

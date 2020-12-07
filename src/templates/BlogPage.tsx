@@ -72,7 +72,7 @@ const BlogPage = ({data}) => {
 
   return (
    <Layout>
-    <SEO />
+    <SEO title={post.title} description={post.description}/>
     <article>
       <Img fluid={post.mainImage.asset.fluid}/>
       <Title>{post.title}</Title>
@@ -95,6 +95,7 @@ export const query = graphql`
         title
         publishedAt
         _rawBody
+        description
         author {
           name
         }

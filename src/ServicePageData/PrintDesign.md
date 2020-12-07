@@ -1,5 +1,6 @@
 ---
-slug: '/services/printing'
+slug: '/services/graphic-design'
+link: 'Graphic Design'
 title: 'Print and Graphic Design'
 featuredImage: ../assets/img/services/printer.jpg
 alt: 'Offset printing press being prepared for operation.'

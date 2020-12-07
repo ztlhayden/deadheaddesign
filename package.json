@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@pittica/gatsby-plugin-recaptcha": "^1.0.0",
+    "@sanity/block-content-to-react": "^2.0.7",
+    "@sanity/image-url": "^0.140.19",
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^2.28.0",
     "gatsby-cli": "^2.15.0",
@@ -24,6 +26,7 @@
     "gatsby-plugin-typescript": "^2.8.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.7.0",
+    "gatsby-source-sanity": "^6.0.4",
     "gatsby-theme-codebushi": "1.0.0",
     "gatsby-transformer-remark": "^2.12.0",
     "gatsby-transformer-sharp": "^2.8.0",
@@ -34,6 +37,7 @@
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "react-hook-form": "^6.12.2",
+    "sanity": "^2.0.1",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
@@ -46,7 +50,7 @@
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-prettier": "^3.2.0",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^2.5.1",
     "prettier": "^1.19.1"

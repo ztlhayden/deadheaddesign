@@ -44,14 +44,14 @@ export default () => (
 
     <section id='services' className='py-20 lg:pb-40 lg:pt-48'>
       <div className='container mx-auto text-center'>
-        <H2>Solution Based Marketing Plan</H2>
+        <H2>Solution Based Marketing</H2>
         <div className='flex flex-col sm:flex-row sm:-mx-3 mt-12'>
           <div className='flex-1 px-3'>
             <Card>
-              <H3>Social Media Management</H3>
+              <H3>Branding and Print Design</H3>
               <p>
-                Drive engagement with regular content that is aligned with your brand and goals, but
-                without all the hard work.
+                Fully custom print and digital graphic design to ensure your brand is consistent on
+                every marketing channel.
               </p>
             </Card>
           </div>
@@ -66,10 +66,10 @@ export default () => (
           </div>
           <div className='flex-1 px-3'>
             <Card>
-              <H3>Branding and Print Design</H3>
+              <H3>Social Media Management</H3>
               <p>
-                Fully custom print and digital graphic design to ensure your brand is consistent on
-                every marketing channel.
+                Drive engagement with regular content that is aligned with your brand and goals, but
+                without all the hard work.
               </p>
             </Card>
           </div>

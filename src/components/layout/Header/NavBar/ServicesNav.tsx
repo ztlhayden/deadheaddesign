@@ -1,24 +1,71 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
-import {Link} from 'gatsby'
+import { useStaticQuery, graphql } from "gatsby"
+import { device } from '../../GlobalStyles/Styles/devices'
 
-const Nav = styled.ul``
+import NavButton from './NavButton'
 
-const Button = styled(Link)``
+const ServiceNavContainer = styled.div`
+  background-color: inherit;
+  
+  .hideSvc {
+    height: 0;
+  }
 
-const NavItem = ({to, value}) => {
+  .showSvc {
+    height: 408px;
+
+    @media ${device.laptop} {
+      height: 312px;
+      border-radius: 3px;
+    }
+  }
+`
+
+const Nav = styled.ul`
+  overflow: hidden;
+  background-color: inherit;
+  transition: height .15s ease-in-out;
+`
+
+const Button = styled.button`
+  margin-left: auto;
+  margin-right: 0;
+  //blank
+`
+
+const NavItem = (page) => {
+  const link = page.frontmatter.link
+  const slug= page.frontmatter.slug
+
   return (
-    <li key={value}><Button to={to}>{value}</Button></li>
+    <li key={link}><NavButton to={slug}>{link}</NavButton></li>
   )
 }
 
 const ServicesNav = () => {
-  const [isVis, setVis] = useState()
-  
+  const [isVis, setVis] = useState(false)
+  const data = useStaticQuery(graphql`
+    {
+      allMarkdownRemark {
+        nodes {
+          frontmatter {
+            slug
+            link
+          }
+        }
+      }
+    }
+  `)
+  const pages = data.allMarkdownRemark.nodes
+
   return (
-    <Nav>
-      <li key={}><Link to={}>{}</Link></li>
-    </Nav>
+    <ServiceNavContainer>
+      <NavButton onClick={() => setVis(!isVis)} as={Button}>Services</NavButton>
+      <Nav className={isVis ? 'showSvc' : 'hideSvc'}>
+        {pages.map(page => NavItem(page))}
+      </Nav>
+    </ServiceNavContainer>
   )
 }
 

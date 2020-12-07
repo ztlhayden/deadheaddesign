@@ -14,11 +14,9 @@ const HeaderContainer = styled.header`
   z-index: 50;
   display: flex;
   width: 100%;
-  align-items: center;
   justify-content: space-between;
   margin: 0 auto;
   padding: 1rem 3rem;
-
   .logo {
     span {
       display: none;
@@ -32,6 +30,7 @@ const HeaderContainer = styled.header`
       }
     }
   }
+
   @media ${device.tablet} {
     flex-direction: row;
   }

@@ -4,6 +4,7 @@ import { device } from '../../GlobalStyles/Styles/devices'
 
 import Icon from '../../../atoms/icon'
 import NavButton from './NavButton'
+import ServicesNav from './ServicesNav'
 
 const NavBarContainer = styled.div`
   display: flex;
@@ -21,23 +22,11 @@ const NavBarContainer = styled.div`
     transition: width .13s ease-out;
     overflow: hidden;
 
-    a {
-      font-size: 24px;
-      padding: 5px;
-      margin-bottom: 5px;
-      display: block;
-      text-align: center;
-    }
-
     @media ${device.laptop} {
       position: relative;
+      top: 10%;
       display: flex;
-      width: fit-content;
-
-      a{
-        font-size: inherit;
-        margin-left: 10px;
-      }
+      overflow: visible;
     }
   }
 
@@ -50,6 +39,8 @@ const NavBarContainer = styled.div`
   }
 
   @media ${device.laptop} {
+    height: 50px;
+
     .show {
       width: auto;
     }
@@ -58,7 +49,7 @@ const NavBarContainer = styled.div`
       width: auto;
     }
 
-    button {
+    button#hammie {
       display: none;
     }
   }
@@ -71,15 +62,15 @@ const NavBar = () => {
 
   return (
     <NavBarContainer>
-      <button onClick={() => setVis(!vis)}>
+      <button id='hammie' onClick={() => setVis(!vis)}>
         <Icon symbol='hamburger' />  
       </button>
       <nav className={vis ? 'show' : 'hide'}>
+        <ServicesNav />
         <NavButton onFocus={handleFocus} to='/about/'>About</NavButton>
         <NavButton to='/contact/'>Contact</NavButton>
-        <NavButton to='/#services'>Services</NavButton>
-        {/* Blog */}
         <NavButton to='/portfolio/'>Our Work</NavButton>
+        <NavButton to='/blog'>Blog</NavButton>
       </nav>
     </NavBarContainer>
   )

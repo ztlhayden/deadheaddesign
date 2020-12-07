@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-
 import { graphql } from 'gatsby'
+import {device} from '../components/layout/GlobalStyles/Styles/devices'
 
 import Img from 'gatsby-image'
 import SEO from '../components/util/SEO'
@@ -11,10 +11,6 @@ import { Title } from '../components/atoms/typo'
 
 const ServiceWrapper = styled.div`
   margin: 0 auto;
-
-  .hero {
-    margin: 20px 0;
-  }
 
   .cta {
     display: block;
@@ -28,7 +24,16 @@ const Body = styled.div`
   display: grid;
   
   p {
+    padding-top: 15px;
     margin: 10px;
+  }
+  
+  .hero {
+    margin: 20px 0;
+  }
+  
+  @media ${device.laptop} {
+    grid-template-columns: .7fr 1fr;
   }
 `
 

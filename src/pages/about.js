@@ -27,7 +27,7 @@ export default () => (
           <p className='m-3'>
             Many companies invest money and time in marketing that does not produce results. I
             realized I could use my skills in education and technical fields to identify problems
-            and create solutions that does make an impact.
+            and create solutions that do make an impact.
           </p>
         </div>
       </div>

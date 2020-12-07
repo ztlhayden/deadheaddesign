@@ -1,5 +1,6 @@
 ---
 slug: '/services/content-creation'
+link: 'Content Creation'
 title: 'Content Writting Services'
 featuredImage: ../assets/img/services/writting.jpg
 alt: 'Typewritter.'

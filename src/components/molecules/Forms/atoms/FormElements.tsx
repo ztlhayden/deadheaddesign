@@ -6,22 +6,33 @@ const Form = styled.form`
   .bot {
     display: none;
   }
+
+  width: 100%;
+  max-width: 768px;
+  margin: 15px auto;
+`
+
+const star = `
+  display: block;
+  width: 100%;
+  margin: 5px auto;
+  border-radius: 3px;
 `
 
 const Label = styled.label`
-  display: block;
+  ${star}
 `
 
 const Input = styled.input`
-  display: block;
+  ${star}
 `
 
 const TextArea = styled.input`
-  display: block;
+  ${star}
 `
 
 const Button = styled.button`
-  display: block;
+  ${star}
 `
 
 export {Form, Label, Input, TextArea, Button}

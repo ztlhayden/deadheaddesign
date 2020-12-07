@@ -13,10 +13,10 @@ const ServiceNavContainer = styled.div`
   }
 
   .showSvc {
-    height: 408px;
+    height: 322px;
 
     @media ${device.laptop} {
-      height: 312px;
+      height: 280px;
       border-radius: 3px;
     }
   }

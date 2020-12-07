@@ -19,3 +19,5 @@ We can host any site, including fully static, JAM stack, PHP, and Node systems. 
 Pair Deadhead.Design's managed hosting with our SEO and custom web development services. Keeping your website hosting, development, and SEO under one roof saves you time and money. We can work without delays, and you don't have to play the middle man communicating between companies.
 
 Does your business already have a website? We can take over the management of an existing website, including moving it over to our servers. Your users won't be interrupted.
+
+Learn more about our services today.

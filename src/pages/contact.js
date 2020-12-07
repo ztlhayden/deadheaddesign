@@ -5,8 +5,8 @@ import SEO from '../components/util/SEO'
 
 import PhoneIcon from '../assets/icon/phone.svg'
 import ComputerIcon from '../assets/icon/computer.svg'
-import Button from '../components/atoms/Button'
 import Icon from '../components/atoms/icon'
+import ContactForm from '../components/molecules/Forms/ContactForm'
 
 export default () => (
   <Layout>
@@ -15,8 +15,7 @@ export default () => (
       <h1 className='text-3xl text-center mt-5 font-semibold'>Let&apos;s get coffee!</h1>
       <div className='max-w-md w-full p-3 ml-auto mr-auto mt-16 mb-20 bg-contrast_dark text-white shadow-md rounded flex flex-wrap justify-around content-center'>
         <h2 className='text-center font-semibold text-lg mt-auto mb-auto'>Schedule a Meeting</h2>
-        <span className='text-center text-3xl mt-auto mb-auto'>&#10132;</span>
-        <Button size='lg'>Contact Form</Button>
+        <ContactForm />
       </div>
       <div className='flex mt-5 justify-center'>
         <a

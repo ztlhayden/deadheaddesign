@@ -6,7 +6,7 @@ import PortfolioItems from '../components/Portfolio/PortfolioItems'
 import ImgHaydenYoungMe from '../components/Portfolio/portfolio_photos/ImgHaydenYoungMe'
 import ImgRiverOfLife from '../components/Portfolio/portfolio_photos/ImgRiverOfLife'
 import ImgBonAppeAirplane from '../components/Portfolio/portfolio_photos/ImgBonAppeAirline'
-import ImgCodePen from '../components/Portfolio/portfolio_photos/ImgCodePen'
+import ImgTidyTim from '../components/Portfolio/portfolio_photos/ImgTidyTim'
 
 export default () => (
   <Layout>
@@ -26,8 +26,8 @@ export default () => (
         <PortfolioItems name='Bon Appe Airplane' url='https://bonappeairplane.com/'>
           <ImgBonAppeAirplane />
         </PortfolioItems>
-        <PortfolioItems name='CodePen Examples' url='https://codepen.io/ztlhayden'>
-          <ImgCodePen />
+        <PortfolioItems name='Tidy Tim Cleaning Company' url='https://tidytimcleaning.com'>
+          <ImgTidyTim />
         </PortfolioItems>
       </div>
     </div>

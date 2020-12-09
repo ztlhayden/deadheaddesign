@@ -7,6 +7,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.deadhead.design`
+      }
+    },
+    {
       resolve: `gatsby-source-sanity`,
       options: {
         projectId: `65wm0sc2`,

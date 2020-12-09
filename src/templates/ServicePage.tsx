@@ -23,9 +23,14 @@ const ServiceWrapper = styled.div`
 const Body = styled.div`
   display: grid;
   
-  p {
+  p,
+  ul {
     padding-top: 15px;
     margin: 10px;
+  }
+
+  ul {
+    list-style: inside;
   }
   
   .hero {

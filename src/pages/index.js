@@ -20,7 +20,7 @@ import { H3, H2 } from '../components/atoms/typo'
 
 export default () => (
   <Layout>
-    <SEO title='Web Design and Marketing in Lexington Kentucky' />
+    <SEO title='Web Design & Marketing, Lexington KY' />
     <section className='pt-20 md:pt-40'>
       <div className='container mx-auto px-8 lg:flex'>
         <div className='text-center lg:text-left lg:w-1/2 lg:mr-10 mb-10'>

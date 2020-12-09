@@ -14,4 +14,6 @@ Our online reputation service helps your business by curating what people search
 
 Reputation management can also be a tool for discovering, refining and tracking changes in your customer demographics. Knowing this will help you refine your content into more engaging material.
 
-We won't use any tricks or lies either, just your loyal clients raving about your great products. Let's chat about how you can build and protect your brand image online.
+We won't use any tricks or lies either, just your loyal clients raving about your great products.
+
+Let's chat about how you can build and protect your brand image online.

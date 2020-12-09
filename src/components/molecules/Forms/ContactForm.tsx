@@ -53,32 +53,32 @@ const ContactForm = () => {
       
       <Label htmlFor='name'>
         Name*
-        <Input placeholder="Your Name" name='Name' id='name' type='text' required onChange={handleChange} value={formState.name}/>
+        <Input placeholder="Your Name" name='name' id='name' type='text' required onChange={handleChange} value={formState.name}/>
       </Label>
 
       <Label htmlFor='company'>
         Company
-        <Input placeholder="Your Company" name='Company' id='company' type='text' onChange={handleChange} value={formState.company}/>
+        <Input placeholder="Your Company" name='company' id='company' type='text' onChange={handleChange} value={formState.company}/>
       </Label>
 
       <Label htmlFor='website'>
         Your Website
-        <Input placeholder="https://www.website.com" name='Webite' id='website' type='url' onChange={handleChange} value={formState.website}/>
+        <Input placeholder="https://www.website.com" name='website' id='website' type='url' onChange={handleChange} value={formState.website}/>
       </Label>
 
       <Label htmlFor='email'>
         Email*
-        <Input placeholder="you@email.com" name='Email' id='email' type='email' required onChange={handleChange} value={formState.name}/>
+        <Input placeholder="you@email.com" name='email' id='email' type='email' required onChange={handleChange} value={formState.email}/>
       </Label>
 
       <Label htmlFor='phone'>
         Phone Number
-        <Input placeholder="(555) 555-5555" name='Phone' id='phone' type='tel' onChange={handleChange} value={formState.name}/>
+        <Input placeholder="(555) 555-5555" name='phone' id='phone' type='tel' onChange={handleChange} value={formState.phone}/>
       </Label>
 
       <Label htmlFor='message'>
         Message
-        <TextArea placeholder="What can we do?" name='Message' id='message' onChange={handleChange} value={formState.message}/>
+        <TextArea placeholder="What can we do?" name='message' id='message' onChange={handleChange} value={formState.message}/>
       </Label>
 
       <Button>Submit</Button>

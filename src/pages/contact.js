@@ -10,7 +10,7 @@ import ContactForm from '../components/molecules/Forms/ContactForm'
 
 export default () => (
   <Layout>
-    <SEO title='Request Quote' />
+    <SEO title='Contact' />
     <div className='container m-auto'>
       <h1 className='text-3xl text-center mt-5 font-semibold'>Let&apos;s get coffee!</h1>
       <div className='max-w-md w-full p-3 ml-auto mr-auto mt-16 mb-20 bg-contrast_dark text-white shadow-md rounded flex flex-wrap justify-around content-center'>
